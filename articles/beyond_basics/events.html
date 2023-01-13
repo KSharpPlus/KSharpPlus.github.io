@@ -1,0 +1,176 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>KSharpPlus Events | KSharpPlus documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="KSharpPlus Events | KSharpPlus documentation ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../images/Kuracord-red.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../images/Kuracord-red.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="articles.beyond_basics.events">
+<h1 id="consuming-events">Consuming Events</h1>
+
+<p>KSharpPlus makes use of <em>asynchronous events</em> which will execute each handler asynchronously in sequential order. This
+event system will require event handlers have a <code>Task</code> return type and take two parameters.</p>
+<p>The first parameter will contain an instance of the <a class="xref" href="../../api/KSharpPlus.Clients.KuracordClient.html">KuracordClient</a> which fired the event.
+The second parameter will contain an arguments object for the specific event you're handling.</p>
+<p>Below is a snippet demonstrating this with a lambda expression.</p>
+<pre><code class="lang-cs">public static async Task Main() {
+    KuracordClient client = new();
+	
+    client.MessageCreated += async (s, e) =&gt; {
+        if (e.Message.Content.ToLower().Contains(&quot;spiderman&quot;)) 
+            await e.Channel.SendMessageAsync(&quot;I want pictures of Spiderman!&quot;);
+    };
+	
+	client.MemberJoined += (s, e) =&gt; {
+        // Non asynchronous code here.
+        return Task.CompletedTask;
+    };
+}
+</code></pre>
+<p>Alternatively, you can create a new method to consume an event.</p>
+<pre><code class="lang-cs">public static async Task Main() {
+    KuracordClient client = new();
+	
+    client.MessageCreated += MessageCreatedHandler;
+	client.MemberJoined += MemberJoinedHandler;
+}
+
+async Task MessageCreatedHandler(KuracordClient s, MessageCreateEventArgs e) {
+    if (e.Guild.Id == 564 &amp;&amp; e.Author.Id == 42)
+        await e.Message.DeleteAsync();
+}
+
+Task MemberJoinedHandler(KuracordClient s, MemberJoinedEventArgs e) {
+    // Non asynchronous code here.
+    return Task.CompletedTask;
+}
+</code></pre>
+<h1 id="avoiding-deadlocks">Avoiding Deadlocks</h1>
+<p>Despite the fact that your event handlers are executed asynchronously, they are also executed one at a time on the
+gateway thread for consistency. This means that each handler must complete its execution before others can be dispatched.</p>
+<p>Because of this, executing code in your event handlers that runs for an extended period of time may inadvertently create
+brief unresponsiveness or, even worse, cause a <a href="https://en.wikipedia.org/wiki/Deadlock">deadlock</a>.
+To prevent such issues, any event handler that has the potential to take more than 2 seconds to execute should have its
+logic offloaded to a <code>Task.Run</code>.</p>
+<pre><code class="lang-cs">client.MessageCreated += (s, e) =&gt; {
+    _ = Task.Run(async () =&gt; {
+        // Pretend this takes many, many seconds to execute.
+        SlowWebServiceResponse response = await QuerySlowWebServiceAsync(e.Message.Content);
+
+        if (response.StatusCode == HttpStatusCode.OK)
+			await e.Member.ModifyAsync(&quot;Cool nickname&quot;);
+    });
+
+	return Task.CompletedTask;
+};
+</code></pre>
+<p>Doing this will allow the handler to complete its execution quicker, which will in turn allow other handlers to be
+executed and prevent the gateway thread from being blocked.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © 2023 KSharpPlus Contributors
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

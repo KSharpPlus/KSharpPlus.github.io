@@ -1,0 +1,285 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Your First Bot | KSharpPlus documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Your First Bot | KSharpPlus documentation ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../images/Kuracord-red.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../images/Kuracord-red.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="articles.basics.first_bot">
+<h1 id="your-first-bot">Your First Bot</h1>
+
+<div class="NOTE">
+<h5>Note</h5>
+<p>This article assumes the following:</p>
+<ul>
+<li>You have <a class="xref" href="bot_account.html">created a bot account</a> and have a token.</li>
+<li>You have <a href="https://www.jetbrains.com/rider/">JetBrains Rider</a> or another IDE installed on your computer.</li>
+</ul>
+</div>
+<h2 id="create-a-project">Create a Project</h2>
+<p>Open up Rider and click on <code>New Solution</code> at the top of the window.</p>
+<p><img src="/images/basics_first_bot_1.jpg" alt="JetBrains Rider Start Screen"></p>
+<p>Select <code>.NET / .NET Core &gt; Console Application</code></p>
+<p><img src="/images/basics_first_bot_2.png" alt="New Solution Screen"></p>
+<p>Next, you'll give your project a name. For this example, we'll name it <code>MyFirstBot</code>. If you'd like, you can also change
+the directory that your project will be created in.</p>
+<p>Enter your desired project name, then click on the <code>Create</code> button.</p>
+<p><img src="/images/basics_first_bot_3.png" alt="JetBrains Rider IDE"></p>
+<h2 id="install-package">Install Package</h2>
+<p>Now that you have a project created, you'll want to get KSharpPlus installed.
+Locate the <em>Explorer</em> towards the upper left, then right click on <code>Dependencies</code> and select <code>Manage NuGet Packages</code>
+from the context menu.</p>
+<p><img src="/images/basics_first_bot_4.png" alt="Dependencies Context Menu"></p>
+<p>You'll then be greeted by the NuGet package manager.</p>
+<p>Select the <code>Packages</code> tab, then type <code>KSharpPlus</code> into the search text box.<br>
+The first result should be the KSharpPlus package.</p>
+<p><img src="/images/basics_first_bot_5.png" alt="NuGet Package Search"></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Package</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><code>KSharpPlus</code></td>
+<td style="text-align: center;">Main package; Kuracord API client.</td>
+</tr>
+</tbody>
+</table>
+<p>We'll only need the <code>KSharpPlus</code> package for the basic bot we'll be writing in this article. Select it from the list
+then click the <code>Install</code> button to the right (after verifing that you will be installing the <strong>latest version</strong>).</p>
+<p><img src="/images/basics_first_bot_6.png" alt="Install KSharpPlus"></p>
+<p>You're now ready to write some code!</p>
+<h2 id="first-lines-of-code">First Lines of Code</h2>
+<p>KSharpPlus implements <a href="https://docs.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/consuming-the-task-based-asynchronous-pattern">Task-based Asynchronous Pattern</a>.
+Because of this, the majority of KSharpPlus methods must be executed in a method marked as <code>async</code> so they can be properly <code>await</code>ed.</p>
+<p>Head back to your <em>Program.cs</em> tab and delete all in it.</p>
+<p>Then add the <code>Main</code> method:</p>
+<pre><code class="lang-cs">namespace MyFirstBot;
+
+internal static class Program {
+    public static async Task Main() {
+        
+    }
+}
+</code></pre>
+<p><img src="/images/basics_first_bot_7.png" alt="Code Editor"></p>
+<p>We'll now create a new <code>KuracordClient</code> instance in our brand new asynchronous method.</p>
+<p>Create a new variable and assign it a new <a class="xref" href="../../api/KSharpPlus.Clients.KuracordClient.html">KuracordClient</a> instance, then pass an instance of
+<a class="xref" href="../../api/KSharpPlus.KuracordConfiguration.html">KuracordConfiguration</a> to its constructor. Create an object initializer for <a class="xref" href="../../api/KSharpPlus.KuracordConfiguration.html">KuracordConfiguration</a>
+and populate the <a class="xref" href="../../api/KSharpPlus.KuracordConfiguration.html#KSharpPlus_KuracordConfiguration_Token">Token</a> property with your token, then set the
+<a class="xref" href="../../api/KSharpPlus.KuracordConfiguration.html#KSharpPlus_KuracordConfiguration_TokenType">TokenType</a> property to <a class="xref" href="../../api/KSharpPlus.Enums.TokenType.html#KSharpPlus_Enums_TokenType_User">User</a>.</p>
+<pre><code class="lang-cs">KuracordClient client = new(new KuracordConfiguration {
+    Token = &quot;My First Token&quot;,
+    TokenType = TokenType.User
+});
+</code></pre>
+<div class="WARNING">
+<h5>Warning</h5>
+<p>We hard-code the token in the above snippet to keep things simple and easy to understand.</p>
+<p>Hard-coding your token is <em>not</em> a smart idea, especially if you plan on distributing your source code.
+Instead you should store your token in an external medium, such as a configuration file or environment variable, and
+read that into your program to be used with KSharpPlus.</p>
+</div>
+<p>Follow that up with <a class="xref" href="../../api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_ConnectAsync_">ConnectAsync</a> to connect and login to Kuracord, and <code>await Task.Delay(-1);</code>
+at the end of the method to prevent the console window from closing prematurely.</p>
+<pre><code class="lang-cs">KuracordClient client = new();
+	
+await client.ConnectAsync();
+await Task.Delay(-1);
+</code></pre>
+<p>ReSharper will have auto generated the needed <code>using</code> directive for you if you typed this in by hand. If
+you've copied the snippet, be sure to apply the recommended suggestion to insert the required directive.</p>
+<p>If you hit <code>F5</code> on your keyboard to compile and run your program, you'll be greeted by a happy little console with a
+single log message from KSharpPlus. Woo hoo!</p>
+<p><img src="/images/basics_first_bot_8.png" alt="Program Console"></p>
+<h2 id="spicing-up-your-bot">Spicing Up Your Bot</h2>
+<p>Right now our bot doesn't do a whole lot. It's not even on any server! Let's bring it to life by adding it to the server
+and having it respond to a message!</p>
+<p>Login to your Kuracord account and select the server you want to invite your bot to.
+Then open any channel and copy Vanity URL for your server.</p>
+<p><img src="/images/basics_first_bot_9.jpg" alt="Kuracord Server"></p>
+<p>Hook the <a class="xref" href="../../api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_Ready">Ready</a> event fired by <a class="xref" href="../../api/KSharpPlus.Clients.KuracordClient.html">KuracordClient</a> with a <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions">lambda</a>.
+Mark it as <code>async</code> and give it two parameters: <code>s</code> and <code>e</code>.</p>
+<p>Then, add an <code>if</code> statement into the body of your event lambda that will check is the bot is in any server:</p>
+<pre><code class="lang-cs">client.Ready += async (s, e) =&gt; {
+	if (client.Guilds.Count &gt; 0) return;
+};
+</code></pre>
+<p>Cool! Next we'll add an <a class="xref" href="../../api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_JoinGuildAsync_">JoinGuildAsync</a> method and pass Vanity URL as parameters to it.<br>
+Also we'll add an confirmation message output to the console.</p>
+<pre><code class="lang-cs">client.Ready += async (s, e) =&gt; {
+    if (client.Guilds.Count &gt; 0) return;
+	
+    KuracordGuild guild = await client.JoinGuildAsync(&quot;My First Invite&quot;);
+    Console.WriteLine($&quot;I joined the {guild.Name}!&quot;);
+};
+</code></pre>
+<p><img src="/images/basics_first_bot_10.png" alt="Ready Event"></p>
+<p>Now we need to add some functionality to the bot.</p>
+<p>Subscribe to the <a class="xref" href="../../api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_MessageCreated">MessageCreated</a> event as before.</p>
+<pre><code class="lang-cs">client.MessageCreated += async (s, e) =&gt; {
+    
+};
+</code></pre>
+<p>Add an <code>if</code> statement that will check if <a class="xref" href="../../api/KSharpPlus.Entities.Channel.Message.KuracordMessage.html#KSharpPlus_Entities_Channel_Message_KuracordMessage_Content">Content</a> starts with your
+desired trigger word and respond with a message using <a class="xref" href="../../api/KSharpPlus.Entities.Channel.KuracordChannel.html#KSharpPlus_Entities_Channel_KuracordChannel_SendMessageAsync_">SendMessageAsync</a> if it does.
+For this example, we'll have the bot to respond with <em>pong!</em> for each message that starts with <em>ping</em>.</p>
+<pre><code class="lang-cs">client.MessageCreated += async (s, e) =&gt; {
+    if (e.Message.Content.ToLower().StartsWith(&quot;ping&quot;))
+        await e.Channel.SendMessageAsync(&quot;pong!&quot;);
+};
+</code></pre>
+<p><img src="/images/basics_first_bot_11.png" alt="Message Created Event"></p>
+<h2 id="the-finished-product">The Finished Product</h2>
+<p>Your entire program should now look like this:</p>
+<pre><code class="lang-cs">using KSharpPlus;
+using KSharpPlus.Clients;
+using KSharpPlus.Entities.Guild;
+using KSharpPlus.Enums;
+
+namespace MyFirstBot;
+
+internal static class Program {
+    public static async Task Main() {
+        KuracordClient client = new(new KuracordConfiguration {
+            Token = &quot;My First Token&quot;,
+            TokenType = TokenType.User
+        });
+
+        client.Ready += async (s, e) =&gt; {
+            if (client.Guilds.Count &gt; 0) return;
+
+            KuracordGuild guild = await client.JoinGuildAsync(&quot;My First Invite&quot;);
+            Console.WriteLine($&quot;I joined the {guild.Name}!&quot;);
+        };
+        
+        client.MessageCreated += async (s, e) =&gt; {
+            if (e.Message.Content.ToLower().StartsWith(&quot;ping&quot;))
+                await e.Channel.SendMessageAsync(&quot;pong!&quot;);
+        };
+
+        await client.ConnectAsync();
+        await Task.Delay(-1);
+    }
+}
+</code></pre>
+<p>Hit <code>F5</code> to run your bot, then send <em>ping</em> in any channel your bot account has access to. Your bot should respond with
+<em>pong!</em> for each <em>ping</em> you send.</p>
+<p>Congrats, your bot now does something!</p>
+<p><img src="/images/basics_first_bot_12.png" alt="Bot Response"></p>
+<h2 id="further-reading">Further Reading</h2>
+<p>Now that you have a basic bot up and running, you should take a look at the following:</p>
+<ul>
+<li><a class="xref" href="../beyond_basics/events.html">Events</a></li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © 2023 KSharpPlus Contributors
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

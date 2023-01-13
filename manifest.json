@@ -1,0 +1,1595 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/Stm07/Desktop/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Clients.BaseKuracordClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Clients.BaseKuracordClient.html",
+          "hash": "O0ATW08/73/urSfhlD2QQwOjLzvKN7ByKto4OsgM6h0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Clients.KuracordClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Clients.KuracordClient.html",
+          "hash": "9Zeoe9I5J97F5x+jHbtFVVQDr4njAl3VLDcyL/rG+YY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Clients.KuracordWebhookClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Clients.KuracordWebhookClient.html",
+          "hash": "ORcTqTu4w3iYd0R/6RWdTdnrglxjDAzhZsbY3MTcbKk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Clients.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Clients.html",
+          "hash": "iQhqHRYuJbaDyXGRtXpqxh3Mv/xwZuhPXph9sf7qXJM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Entities.Channel.KuracordChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Entities.Channel.KuracordChannel.html",
+          "hash": "eTOXNJktCz+SHPRoxiEHojX4qErHjqtiprPZylJap9E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Entities.Channel.KuracordDmChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Entities.Channel.KuracordDmChannel.html",
+          "hash": "zTin0+14GpHz5RETU7xGnTZS3umfV1Hg7ylVUU6CQ6k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Entities.Channel.Message.KuracordAttachment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Entities.Channel.Message.KuracordAttachment.html",
+          "hash": "VkHpTuxxX6etetybkykgd2myBlcxQtDlHDLG3TASdbM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Entities.Channel.Message.KuracordMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Entities.Channel.Message.KuracordMessage.html",
+          "hash": "DUdp/1O+ijuFIVqEoaiqMWhWZ7TDwZTJRup4uKukLbE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Entities.Channel.Message.KuracordMessageFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Entities.Channel.Message.KuracordMessageFile.html",
+          "hash": "d1FD1fOI5FFbW7ZAvuFu1WN4jv5FNQTmWMdYPiSn0yY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Entities.Channel.Message.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Entities.Channel.Message.html",
+          "hash": "LwjdQrfph/pCU9hU1wjtlerak0esDa5J5gmlWnGT3r0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Entities.Channel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Entities.Channel.html",
+          "hash": "hu/vqYZhlH3FU3RgsrZjwUBi8Btry0hmlHXlWDNPIJs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Entities.Color.KuracordColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Entities.Color.KuracordColor.html",
+          "hash": "bcfdU9BhDi8H0Jb+G5kamkonx0jw2dnMgyemOb4gmAw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Entities.Color.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Entities.Color.html",
+          "hash": "X3TsQznNXlBc2526dMtdkPRzfA6wWOYFQB3jSbnU6pI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Entities.Guild.KuracordGuild.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Entities.Guild.KuracordGuild.html",
+          "hash": "VA+wqf0RxdUbbLP6xFVNz3tB3a5ycVq9rRyCXwfWJT0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Entities.Guild.KuracordMember.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Entities.Guild.KuracordMember.html",
+          "hash": "Hz7IISk7KT4wWh4RSxbAYJ5ioq4dkK+zZYmvt4KxJ/8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Entities.Guild.KuracordRole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Entities.Guild.KuracordRole.html",
+          "hash": "qKwGzov2qjbAa3ip7qPkTQHAN3qnahPSjZdIw0BovEM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Entities.Guild.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Entities.Guild.html",
+          "hash": "JvrYWjqm2xMj0EIdReSaMnP9QQa024vEmZyJCLjSSjU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Entities.IOptional.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Entities.IOptional.html",
+          "hash": "nr9hkVf5c4DIzDKhgPfe/X0ijjdBSLcILHL6ZJ37ajM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Entities.Invite.KuracordInviteGuild.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Entities.Invite.KuracordInviteGuild.html",
+          "hash": "vmWUepSbaqN7T/TxIJOmH5QP4qAGHKr4+b1O4VlhMVc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Entities.Invite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Entities.Invite.html",
+          "hash": "f77LQFBDlFqRR6G5Dfc6LMfjvip1DX1Iu1fh74w6jlI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Entities.Optional-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Entities.Optional-1.html",
+          "hash": "qj1Dp6Ov40dB8U9Nje4vcs49dQ3FgNUsOwaShaXielg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Entities.Optional.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Entities.Optional.html",
+          "hash": "Akxo7DV1I9VeeMV5mqHUAQQW7QZZcj123F156hbuDU0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Entities.SnowflakeObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Entities.SnowflakeObject.html",
+          "hash": "ztHJTtA8CT7Lqi33Hoo+VvL73OJlTu+voUWTD79IU44="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Entities.User.KuracordUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Entities.User.KuracordUser.html",
+          "hash": "AwZi06q3bGebplfjujJfLGaREcUBsYgl0/HaAbAh6zM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Entities.User.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Entities.User.html",
+          "hash": "TsicG2wRDNWSe64oQIwDg7ac4mMSZKei3EnNVOb+LqI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Entities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Entities.html",
+          "hash": "RKLWV+6i+IHeLkKlYhHMp+5lPE9JhQusv7OapVZYEP0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Enums.Channel.ChannelType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Enums.Channel.ChannelType.html",
+          "hash": "wf164JmanLcsOSmg40rrstTuREAjiQx4ZvEV7feXOlw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Enums.Channel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Enums.Channel.html",
+          "hash": "oa0LFUNvpe/tNoRo7vRgmKXtI1Spp0i8cUkx8rOqwtQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Enums.GatewayCompressionLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Enums.GatewayCompressionLevel.html",
+          "hash": "N3GJWZjgzoxY3Kbk+xuI2NQylfFcbSW6dwUrtkfBfx4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Enums.PermissionLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Enums.PermissionLevel.html",
+          "hash": "hh1kLGl08ii6D6hKsOvW/vUYg5WrOeFcb91hoDNRokE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Enums.PermissionMethods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Enums.PermissionMethods.html",
+          "hash": "oY/lFCVv7NKw8ethANdxmzPqhGroz1L1l41KYj/hC78="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Enums.PermissionStringAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Enums.PermissionStringAttribute.html",
+          "hash": "MFLahrPkAzROlIHF12C+i6Pcr4zv8OwBMj00GlQGc6U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Enums.Permissions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Enums.Permissions.html",
+          "hash": "nTLg5NIJMDbDx35wHCFmmudtZGaKuMKlEOurWjQ3F8Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Enums.TokenType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Enums.TokenType.html",
+          "hash": "AzVicQwjinfp/APHyCM891x6IfGEXzIgkIy/r5Jaed4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Enums.User.PremiumType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Enums.User.PremiumType.html",
+          "hash": "kKhsQEFu3PqORuy8QT2ubOYuDS+nJXT2/q3dmeF/2Os="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Enums.User.UserFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Enums.User.UserFlags.html",
+          "hash": "ycrR1jmtEZAjeVHFijgmBlPTGvNQGmYnNzAHNFzNVck="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Enums.User.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Enums.User.html",
+          "hash": "DzFQroOR4jaWyYRM8fNyAO7Qw1hWYQLVA2QadegtkiE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Enums.html",
+          "hash": "rShbxRpqAGo9e1cZm/uuHpMVK7bbCODBiN0F+ZarNJo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.EventArgs.Channel.ChannelCreateEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.EventArgs.Channel.ChannelCreateEventArgs.html",
+          "hash": "AtqmkjlztD5KI1BKWhMi1H5tPlshqsfj/FTBT5GtyTE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.EventArgs.Channel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.EventArgs.Channel.html",
+          "hash": "nS51fOiQXrA5atoL6nWezms6YWssbAHjX1HildfsDuI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.EventArgs.ClientErrorEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.EventArgs.ClientErrorEventArgs.html",
+          "hash": "P07+DoxnY0YMfbIscRFWLP1SFRAuPgnOEn8tRP83d5Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.EventArgs.Guild.GuildCreateEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.EventArgs.Guild.GuildCreateEventArgs.html",
+          "hash": "FZgb500KCV1Buh/oI3n9Cnvv0xA+g1/IDzemWy3mba4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.EventArgs.Guild.GuildDownloadCompletedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.EventArgs.Guild.GuildDownloadCompletedEventArgs.html",
+          "hash": "d932+A8yNYY3LVO1cKrzYl7znAIaW4KsrBcYmRsRHhA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.EventArgs.Guild.GuildUpdateEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.EventArgs.Guild.GuildUpdateEventArgs.html",
+          "hash": "gDbhpZQUA5VkwXmmwloo2osyNhoKTV0IKtqsQeZocak="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.EventArgs.Guild.Member.MemberJoinedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.EventArgs.Guild.Member.MemberJoinedEventArgs.html",
+          "hash": "aaOQAytQ71ffSYOu4/HRP2SijKg2b9p4NJXJGSc++30="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.EventArgs.Guild.Member.MemberUpdatedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.EventArgs.Guild.Member.MemberUpdatedEventArgs.html",
+          "hash": "UsfM/sJcQAJmdklpCY3WOHSIPAghMnpTeh8AWJoVd1o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.EventArgs.Guild.Member.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.EventArgs.Guild.Member.html",
+          "hash": "jCCXG0b5FL2hFBS3NMfXd4I09fz2fJzt/a8pkGKlKvo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.EventArgs.Guild.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.EventArgs.Guild.html",
+          "hash": "Q0FRnZiVCuxLcr3AA+cmRzqZO00GsPV6nlgVcuToaz8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.EventArgs.HeartbeatEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.EventArgs.HeartbeatEventArgs.html",
+          "hash": "1eJlterwaiugqfXv1DtsBUj4/lW8e3V8gAM7UnGUIh4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.EventArgs.KuracordEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.EventArgs.KuracordEventArgs.html",
+          "hash": "ZtqKqPlbV0gx8XEtxkM9Sitb4SV0XZKwUcs6OJOzfm0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.EventArgs.Message.MessageCreateEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.EventArgs.Message.MessageCreateEventArgs.html",
+          "hash": "MSeIItZqWRob9ybybCRAY67rvhi5huKSow/pMwIgPt0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.EventArgs.Message.MessageDeleteEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.EventArgs.Message.MessageDeleteEventArgs.html",
+          "hash": "2/E5BUNJjnQWli0v5JZW5Pv8EyxDRaMkLcxjidGrPXM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.EventArgs.Message.MessageUpdateEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.EventArgs.Message.MessageUpdateEventArgs.html",
+          "hash": "OLOoFx75T/6GcIFh2UKc5l5l//b8vl6tvEehMfTCJpM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.EventArgs.Message.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.EventArgs.Message.html",
+          "hash": "RwDxN/OKvm6/HsfhmpY1LnyHYehuTBIaemErE4St1r8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.EventArgs.ReadyEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.EventArgs.ReadyEventArgs.html",
+          "hash": "xHXKqM4vS4Ov/NqIq1y9djYCY7n6E8lEgZW1Qywo3AM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.EventArgs.Socket.SocketBinaryMessageEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.EventArgs.Socket.SocketBinaryMessageEventArgs.html",
+          "hash": "bM2JyBfbdpeJ4bZ1rfC8xTriTI3qiTpGmgXwYcVTl1A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.EventArgs.Socket.SocketCloseEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.EventArgs.Socket.SocketCloseEventArgs.html",
+          "hash": "/LjojtH0snNeNwI1thcCHxwbLIJFgT6OZn8GZroVxNE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.EventArgs.Socket.SocketErrorEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.EventArgs.Socket.SocketErrorEventArgs.html",
+          "hash": "0TnzZa0c4x5tb5U7AhUoetaaThZqHCVVG2Dklr4JQpc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.EventArgs.Socket.SocketEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.EventArgs.Socket.SocketEventArgs.html",
+          "hash": "4ZlGqPRhS0XYHQnzrqfFBu0jVrbsMDUaD/u3GC38ZRw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.EventArgs.Socket.SocketMessageEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.EventArgs.Socket.SocketMessageEventArgs.html",
+          "hash": "y9Xzs/tDDKiJGX4IbyAVqElWZZly2T5xVoio6PR5O1M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.EventArgs.Socket.SocketTextMessageEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.EventArgs.Socket.SocketTextMessageEventArgs.html",
+          "hash": "zXBE+LTQ0bxOV4CUNC9jTatdVKuJYQk1DUwPGzgopOI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.EventArgs.Socket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.EventArgs.Socket.html",
+          "hash": "6JKNP9fAyBdZYxiBqv+4jVrs8Ir0wjUjB1PCTv+yRYc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.EventArgs.UnknownEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.EventArgs.UnknownEventArgs.html",
+          "hash": "DL6SmPo9tzyoBlPcZwVCYVrZbJTDUQ9XcrKAm/cfuVo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.EventArgs.ZombiedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.EventArgs.ZombiedEventArgs.html",
+          "hash": "s5/pz9ckiORmYxgqKBQN9eIr9gq3gU/+vbX/HJbmoPk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.EventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.EventArgs.html",
+          "hash": "+lfEEBLsESgmw1Q9ePOzyMsXKXduo+feRNJAHBTAK8E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Exceptions.BadRequestException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Exceptions.BadRequestException.html",
+          "hash": "dpVi/NiL/1M/u/WOWAN/z3Pp88bXOxSGsQWxTbESecw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Exceptions.KuracordException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Exceptions.KuracordException.html",
+          "hash": "GcncQsjqP3hBYmJDwGcDQE4yiUzThHuaUMPf+xcK/WQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Exceptions.NotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Exceptions.NotFoundException.html",
+          "hash": "zMkzJouFl7o1sVWc4OvN1PNhzhnjCSJNRoQ6CSbBtFQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Exceptions.RequestSizeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Exceptions.RequestSizeException.html",
+          "hash": "MhwjO6/NQYfdXwgvmOjsCLgwsbzf/swzu8hH1EihmGA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Exceptions.ServerErrorException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Exceptions.ServerErrorException.html",
+          "hash": "0JeVI7LO+vpr1+i/cuAkRa/i6rKsl08QRxIL7+QKuOI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Exceptions.UnauthorizedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Exceptions.UnauthorizedException.html",
+          "hash": "eUxIfCZORgm3Pi+IhclAN0FvO9aGKyMNAx6HplfH/ys="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Exceptions.html",
+          "hash": "vc+XOphsUMWC7Mv9N3yyY6crGtZxp0aUn8hQU8T5yAQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Formatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Formatter.html",
+          "hash": "SeBI7OAX19VgFfKcY/FBFXrpmbES4x0eonzacdEOU+M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.KuracordConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.KuracordConfiguration.html",
+          "hash": "ti9z28dxRcC1Eppz4RZ2QqdeHHmU4cE4HQEP2xUz59E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Logging.DefaultLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Logging.DefaultLogger.html",
+          "hash": "zTKH8u4PaR7pzaytxrjQC8CUApzrlHzgZ6XYaFChhxM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Logging.LoggerEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Logging.LoggerEvents.html",
+          "hash": "98PF/AxsYPsB+6efux9zWlbWfTfv5g/p1d1kKkUV8DI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Logging.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Logging.html",
+          "hash": "DvsEpeI6pZjOBuE1TxUiipauhVW8aJVmOTw3DGBELrc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Net.Abstractions.Gateway.GatewayOpCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Net.Abstractions.Gateway.GatewayOpCode.html",
+          "hash": "uID8HtxwxmBy0EzMDNCQTzOTjJe7weDL9AlxCi/DdpU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Net.Abstractions.Gateway.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Net.Abstractions.Gateway.html",
+          "hash": "GO6opAB1wgI20V561VDoAmO5MPpNDudj6LLmk7bCBJw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Net.Rest.BaseRestRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Net.Rest.BaseRestRequest.html",
+          "hash": "r7RTn5AkawHvqXCFrn9H4gDlbTED+dqMh4Tq/8q5BHk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Net.Rest.KuracordApiClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Net.Rest.KuracordApiClient.html",
+          "hash": "UcjPPwZ2nhclqzPhnbUEkMsv89XVmzEcE8WjoIb5+hE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Net.Rest.RestRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Net.Rest.RestRequest.html",
+          "hash": "DAEvjBSNoTTWDebOxZaAVDN4PdAXvwt8z6P6gSbKYYY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Net.Rest.RestRequestMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Net.Rest.RestRequestMethod.html",
+          "hash": "AVLKPZLTw3zVz98NnppmbmZ5HN1H5VztM7Dt6V21VeM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Net.Rest.RestResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Net.Rest.RestResponse.html",
+          "hash": "IKszY9qUc3OzKvTQkJrkF4FEl1OgTCfcXWV/0lYgIak="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Net.Rest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Net.Rest.html",
+          "hash": "cP8OiR+20PDy4Arc2tpoVpz/LreHNMwq5Qma5B4BvtI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Net.Serialization.KuracordJson.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Net.Serialization.KuracordJson.html",
+          "hash": "9MtPf5uSA+4hg7cNEL76fKCI/muxNNfvjurRf3d4YiY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Net.Serialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Net.Serialization.html",
+          "hash": "xigkmA6BFqokUsltSOCZvVu6yR6K/UEBpPwG1+QpjQM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Net.WebSocket.IWebSocketClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Net.WebSocket.IWebSocketClient.html",
+          "hash": "jN8xPv2KMHxYMUoVr5DIy+bNwtZVg1QQbp4DuHRGo/Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Net.WebSocket.WebSocketClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Net.WebSocket.WebSocketClient.html",
+          "hash": "dAZPS+StIDrf/wrMpLA4MxjyVOvlT/4MNEjbhawOiWo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Net.WebSocket.WebSocketClientFactoryDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Net.WebSocket.WebSocketClientFactoryDelegate.html",
+          "hash": "qjwj8vAHxmrx9u4fdzdRCiXdHpRn54uwbY1ZIe+hi7k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Net.WebSocket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Net.WebSocket.html",
+          "hash": "p0GbIo1HDKmj8zLlnQ3CLqOPQzv3jsS7kg7v9eXVntk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.RingBuffer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.RingBuffer-1.html",
+          "hash": "ZZFPj+jGdAcrzl0/h81Qy3R4VVjIYHb6/Kk2DlKhXRQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.Utilities.html",
+          "hash": "G/aNy9yNGAK7XZJfTPqiPBwRm79ZwKnnMagRPg9fLbg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.html",
+          "hash": "o1a0YiVOjcvI0WoBosdAF1GctcIaIFAyN8SK2LN1pbU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "Lzjn6OGWhbL8XmH/LubN4g3+pbUvEOrYbD81hrlCrk0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "U1HSzOlwPvOBQCDAWDMwdrW7zP07LmlmmTiozBvMGTU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/basics/bot_account.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/basics/bot_account.html",
+          "hash": "MgUTF60PpZeCaeVNfo5NW9za4wAJrWTX+oQpZIbWG7w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/basics/first_bot.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/basics/first_bot.html",
+          "hash": "zytaf6bpf8u09lqreq+NstPvlLwKCTEX2pqafQGBXOI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/beyond_basics/events.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/beyond_basics/events.html",
+          "hash": "VNI4FrFieoDwKuPaJPkCDwfqFeMrzoJ9jvagaM/VPDg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/beyond_basics/logging/default.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/beyond_basics/logging/default.html",
+          "hash": "wYmrggK4CX7b9U4GktE/4LETIX0/Cia3M+mghWjR2Ko="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/beyond_basics/logging/third_party.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/beyond_basics/logging/third_party.html",
+          "hash": "XunGDgr2vvM9B/B3qkHkKTKEO7ZE7Xw0QotOZENx6A0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/misc/reporting_issues.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/misc/reporting_issues.html",
+          "hash": "PJPc5pqkoBnJiFdEwQjZ7tjHqE+rJI1OuCCkEarENQA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/preamble.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/preamble.html",
+          "hash": "TXTfRzbKnD10eRJdF1X51WnsJ5YUEXRQo7IzpGBfCRg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "C3pyhYret3oHr3Sxh08KoJ4KBD8BOJEVmL2KGOFb3j8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Kuracord-Black.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Kuracord-Black.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Kuracord-red.ico",
+      "output": {
+        "resource": {
+          "relative_path": "images/Kuracord-red.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Kuracord-red.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Kuracord-red.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Kuracord-red.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/Kuracord-red.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Kuracord.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Kuracord.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/basics_bot_account_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/basics_bot_account_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/basics_bot_account_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/basics_bot_account_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/basics_first_bot_1.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/basics_first_bot_1.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/basics_first_bot_10.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/basics_first_bot_10.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/basics_first_bot_11.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/basics_first_bot_11.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/basics_first_bot_12.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/basics_first_bot_12.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/basics_first_bot_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/basics_first_bot_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/basics_first_bot_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/basics_first_bot_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/basics_first_bot_4.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/basics_first_bot_4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/basics_first_bot_5.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/basics_first_bot_5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/basics_first_bot_6.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/basics_first_bot_6.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/basics_first_bot_7.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/basics_first_bot_7.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/basics_first_bot_8.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/basics_first_bot_8.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/basics_first_bot_9.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/basics_first_bot_9.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/beyond_basics_logging_default_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/beyond_basics_logging_default_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/beyond_basics_logging_default_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/beyond_basics_logging_default_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/beyond_basics_logging_default_3.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/beyond_basics_logging_default_3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/beyond_basics_logging_third_party_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/beyond_basics_logging_third_party_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "GDOo2owmJMGJS2Ye0nwpr9zcvIn68ZqAM78CSJVWaiU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "FkY10QPqF3ZJCGaOMb4QxgyDh3J7MPi7bsTCxrqUxqI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 9,
+          "skipped_file_count": 8
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 94,
+          "skipped_file_count": 94
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

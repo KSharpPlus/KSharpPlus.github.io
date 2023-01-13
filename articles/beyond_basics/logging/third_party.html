@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Third Party Logging | KSharpPlus documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Third Party Logging | KSharpPlus documentation ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../../images/Kuracord-red.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    
+    <meta property="docfx:rel" content="../../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../index.html">
+                <img id="logo" class="svg" src="../../../images/Kuracord-red.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="articles.beyond_basics.logging.third_party">
+<h1 id="using-a-third-party-logger">Using a Third Party Logger</h1>
+
+<p>While the default logging implementation will meet the needs of most, some may desire to make use of a more robust
+implementation which provides more features. Thankfully, KSharpPlus allows you to use any logging library which has an
+implementation for the <a href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.logging">logging abstractions</a>
+provided by Microsoft.</p>
+<p><a href="https://serilog.net/">Serilog</a>, one of the more popular logging libraries, will be used to demonstrate. This will simply be a brief demo,
+so we won't go into the configuration of Serilog. You'll want to head on over to their <a href="https://github.com/serilog/serilog/wiki/Configuration-Basics">wiki page</a>
+to learn about that!</p>
+<p>We'll need to install both the <code>Serilog</code> and <code>Serilog.Extensions.Logging</code> packages from NuGet, along with at least one
+of the many available <a href="https://github.com/serilog/serilog/wiki/Provided-Sinks">sinks</a>. Our example here will only use
+the <code>Serilog.Sinks.Console</code> sink.</p>
+<p>Start off by creating a new <code>LoggerConfiguration</code> instance, slap <code>.WriteTo.Console().CreateLogger()</code> onto the end of it,
+then directly assign that to the static <code>Logger</code> property on the <code>Log</code> class.</p>
+<pre><code class="lang-cs">Log.Logger = new LoggerConfiguration()
+    .WriteTo.Console()
+    .CreateLogger();	
+</code></pre>
+<p>This will make a new Serilog logger instance which will write to the console sink.</p>
+<p>Next, create a new variable and assign it a new <code>LoggerFactory</code> instance which calls <code>AddSerilog()</code>.</p>
+<pre><code class="lang-cs">ILoggerFactory logFactory = new LoggerFactory().AddSerilog();
+</code></pre>
+<p>Then assign that variable to the <a class="xref" href="../../../api/KSharpPlus.KuracordConfiguration.html#KSharpPlus_KuracordConfiguration_LoggerFactory">LoggerFactory</a> property of your <a class="xref" href="../../../api/KSharpPlus.KuracordConfiguration.html">KuracordConfiguration</a>.</p>
+<pre><code class="lang-cs">new KuracordConfiguration {
+    LoggerFactory = logFactory
+}
+</code></pre>
+<p>Altogether, you'll have something similar to this:</p>
+<pre><code class="lang-cs">using KSharpPlus;
+using KSharpPlus.Clients;
+using Microsoft.Extensions.Logging;
+using Serilog;
+
+public static async Task Main() {
+    Log.Logger = new LoggerConfiguration()
+        .WriteTo.Console()
+        .CreateLogger();
+
+    ILoggerFactory logFactory = new LoggerFactory().AddSerilog();
+    KuracordClient client = new(new KuracordConfiguration {
+        LoggerFactory = logFactory
+    });
+}
+</code></pre>
+<p>And that's it! If you now run your bot, you'll see KSharpPlus log messages formatted and displayed by Serilog.</p>
+<p><img src="/images/beyond_basics_logging_third_party_1.png" alt="Console"></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © 2023 KSharpPlus Contributors
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>The Default Logger | KSharpPlus documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="The Default Logger | KSharpPlus documentation ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../../images/Kuracord-red.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    
+    <meta property="docfx:rel" content="../../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../index.html">
+                <img id="logo" class="svg" src="../../../images/Kuracord-red.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="articles.beyond_basics.logging.default">
+<h2 id="the-default-logger">The Default Logger</h2>
+
+<p>KSharpPlus ships with a default logging implementation which is <strong>enabled automatically</strong> with <strong>no setup required</strong>.</p>
+<p><img src="/images/beyond_basics_logging_default_1.png" alt="Info Level Logging"></p>
+<p>This is a basic implementation that only sends log messages to the console.</p>
+<h4 id="minimum-logging-level">Minimum Logging Level</h4>
+<p>You're able to adjust the verbosity of log messages via <a class="xref" href="../../../api/KSharpPlus.KuracordConfiguration.html">KuracordConfiguration</a>.</p>
+<pre><code class="lang-cs">new KuracordConfiguration {
+    MinimumLogLevel = LogLevel.Debug
+};
+</code></pre>
+<p>The example above will display level log messages that are higher than or equal to <code>Debug</code>.</p>
+<p><img src="/images/beyond_basics_logging_default_2.png" alt="Debug Level Logging"></p>
+<h4 id="timestamp-format">Timestamp Format</h4>
+<p>You're also able to change the format of the log timestamp; this is also set through <a class="xref" href="../../../api/KSharpPlus.KuracordConfiguration.html">KuracordConfiguration</a>.</p>
+<pre><code class="lang-cs">new KuracordConfiguration {
+    LogTimestampFormat = &quot;MMM dd yyyy - hh:mm:ss tt&quot;
+};
+</code></pre>
+<p><img src="/images/beyond_basics_logging_default_3.png" alt="The Real Timestamp Format"></p>
+<p>For a list of all available format specifiers, check out the MSDN page for <a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings#day-d-format-specifier">custom date and time format strings</a>.</p>
+<h2 id="log-levels">Log Levels</h2>
+<p>Below is a table of all log levels and the kind of messages you can expect from each.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Name</th>
+<th style="text-align: center;">Position</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><code>Critical</code></td>
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">Fatal error which may require a restart.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>Error</code></td>
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">A failure of an operation or request.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>Warning</code></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">Non-fatal errors and abnormalities.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>Information</code></td>
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">Session startup and resume messages.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>Debug</code></td>
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">Related information.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>Trace</code></td>
+<td style="text-align: center;">0</td>
+<td style="text-align: left;">Websocket &amp; REST traffic.</td>
+</tr>
+</tbody>
+</table>
+<div class="WARNING">
+<h5>Warning</h5>
+<p>The <code>Trace</code> log level is <em>not</em> recommended for use in production.</p>
+<p>It is intended for debugging KSharpPlus and may display tokens and other sensitive data.</p>
+</div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © 2023 KSharpPlus Contributors
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+  </body>
+</html>

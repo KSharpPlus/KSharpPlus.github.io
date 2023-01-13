@@ -1,0 +1,12 @@
+#logo
+{
+	max-height: 45px;
+	margin-top: 2.5px;
+	padding-right: 5px;
+}
+
+h1.logo-center
+{
+	text-align: center;
+	margin-top: 0;
+}
