@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/Stm07/Desktop/docfx_project",
+  "source_base_path": "C:/Users/Stm07/Desktop/nado/docfx_project",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/KSharpPlus.Clients.KuracordClient.html",
-          "hash": "9Zeoe9I5J97F5x+jHbtFVVQDr4njAl3VLDcyL/rG+YY="
+          "hash": "s8IXrExFCuHODAkJsBMzZyJgL5Qcg2nXAMV6uxRgkyc="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/KSharpPlus.Entities.Channel.KuracordChannel.html",
-          "hash": "eTOXNJktCz+SHPRoxiEHojX4qErHjqtiprPZylJap9E="
+          "hash": "7m5i0T6OToN45NxgFelMrbJFfh0UboJac5JQpYmicpQ="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/KSharpPlus.Entities.Channel.KuracordDmChannel.html",
-          "hash": "zTin0+14GpHz5RETU7xGnTZS3umfV1Hg7ylVUU6CQ6k="
+          "hash": "ytGdoHbbA+k0ZwhcjqR6mDXJOHSkbxGQfIFIiwXfk0g="
         }
       },
       "is_incremental": false,
@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/KSharpPlus.Entities.Channel.Message.KuracordMessage.html",
-          "hash": "DUdp/1O+ijuFIVqEoaiqMWhWZ7TDwZTJRup4uKukLbE="
+          "hash": "dSvpp0MlGx0DiUnWG9v5MkHehrd20a9X6hy+dd/W8zo="
         }
       },
       "is_incremental": false,
@@ -174,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/KSharpPlus.Entities.Guild.KuracordGuild.html",
-          "hash": "VA+wqf0RxdUbbLP6xFVNz3tB3a5ycVq9rRyCXwfWJT0="
+          "hash": "Y1xe4jtjOLEc/bX4IeaIC13FTqJGwWCYdtLnYQ4WqJI="
         }
       },
       "is_incremental": false,
@@ -186,7 +186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/KSharpPlus.Entities.Guild.KuracordMember.html",
-          "hash": "Hz7IISk7KT4wWh4RSxbAYJ5ioq4dkK+zZYmvt4KxJ/8="
+          "hash": "3l/vmejsypOFVvFvgHNLp5KpOvXqKjDLP77EEOFXwBI="
         }
       },
       "is_incremental": false,
@@ -294,7 +294,7 @@
       "output": {
         ".html": {
           "relative_path": "api/KSharpPlus.Entities.User.KuracordUser.html",
-          "hash": "AwZi06q3bGebplfjujJfLGaREcUBsYgl0/HaAbAh6zM="
+          "hash": "Wxe/8X0GAqKRInYABGnnWjRzAdPfL2VlhY5NE8Ympjo="
         }
       },
       "is_incremental": false,
@@ -343,18 +343,6 @@
         ".html": {
           "relative_path": "api/KSharpPlus.Enums.Channel.html",
           "hash": "oa0LFUNvpe/tNoRo7vRgmKXtI1Spp0i8cUkx8rOqwtQ="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/KSharpPlus.Enums.GatewayCompressionLevel.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/KSharpPlus.Enums.GatewayCompressionLevel.html",
-          "hash": "N3GJWZjgzoxY3Kbk+xuI2NQylfFcbSW6dwUrtkfBfx4="
         }
       },
       "is_incremental": false,
@@ -462,7 +450,7 @@
       "output": {
         ".html": {
           "relative_path": "api/KSharpPlus.Enums.html",
-          "hash": "rShbxRpqAGo9e1cZm/uuHpMVK7bbCODBiN0F+ZarNJo="
+          "hash": "7rf3HUmW78BdJF/cx2Ep2JFtnlfxzosbiIUUlnLE2s8="
         }
       },
       "is_incremental": false,
@@ -482,11 +470,35 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.EventArgs.Channel.ChannelDeleteEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.EventArgs.Channel.ChannelDeleteEventArgs.html",
+          "hash": "DCwhYYFt/BcmWILWAGJO/+Mp65HL6xWXBp+Tyig58q4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.EventArgs.Channel.ChannelUpdateEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.EventArgs.Channel.ChannelUpdateEventArgs.html",
+          "hash": "l1QBa1/J85sHtNCnpCfqnSEcE8JXcbHDeTgwZwcGCA0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/KSharpPlus.EventArgs.Channel.yml",
       "output": {
         ".html": {
           "relative_path": "api/KSharpPlus.EventArgs.Channel.html",
-          "hash": "nS51fOiQXrA5atoL6nWezms6YWssbAHjX1HildfsDuI="
+          "hash": "mQqexUpHffz7pmUDm/VLCYdowU8F4PlS/xEgx3ZvOik="
         }
       },
       "is_incremental": false,
@@ -511,6 +523,18 @@
         ".html": {
           "relative_path": "api/KSharpPlus.EventArgs.Guild.GuildCreateEventArgs.html",
           "hash": "FZgb500KCV1Buh/oI3n9Cnvv0xA+g1/IDzemWy3mba4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.EventArgs.Guild.GuildDeleteEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.EventArgs.Guild.GuildDeleteEventArgs.html",
+          "hash": "qxm4LAG0uM66apgnLgX5qL3mbLW0lmoGg5FNQTZYysY="
         }
       },
       "is_incremental": false,
@@ -554,6 +578,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.EventArgs.Guild.Member.MemberLeaveEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.EventArgs.Guild.Member.MemberLeaveEventArgs.html",
+          "hash": "HjCyAu5AYZsE25DAbsweLVMUMoUoD9OiLcEroUvMTyY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/KSharpPlus.EventArgs.Guild.Member.MemberUpdatedEventArgs.yml",
       "output": {
         ".html": {
@@ -570,7 +606,7 @@
       "output": {
         ".html": {
           "relative_path": "api/KSharpPlus.EventArgs.Guild.Member.html",
-          "hash": "jCCXG0b5FL2hFBS3NMfXd4I09fz2fJzt/a8pkGKlKvo="
+          "hash": "f978mWoBJFfDxYLLiK9gdIILuUU9hMoQGcp8eujQqSA="
         }
       },
       "is_incremental": false,
@@ -582,7 +618,7 @@
       "output": {
         ".html": {
           "relative_path": "api/KSharpPlus.EventArgs.Guild.html",
-          "hash": "Q0FRnZiVCuxLcr3AA+cmRzqZO00GsPV6nlgVcuToaz8="
+          "hash": "M2aHxbedulMOAojMUyPrkn52i/Za2ZvGhgN6dBcgiPg="
         }
       },
       "is_incremental": false,
@@ -606,7 +642,7 @@
       "output": {
         ".html": {
           "relative_path": "api/KSharpPlus.EventArgs.KuracordEventArgs.html",
-          "hash": "ZtqKqPlbV0gx8XEtxkM9Sitb4SV0XZKwUcs6OJOzfm0="
+          "hash": "RRl/Eve7MY5uNQDpskPaRzvyGwKK9sHOUzpOBwc3ZpQ="
         }
       },
       "is_incremental": false,
@@ -770,6 +806,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.EventArgs.User.UserUpdateEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.EventArgs.User.UserUpdateEventArgs.html",
+          "hash": "PbUxlWAYzmsKyCgW0vlgAJcuuFYSMOyVKXDqk0g3cpM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KSharpPlus.EventArgs.User.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KSharpPlus.EventArgs.User.html",
+          "hash": "SHT0IZKOqWgYCVGayL/QvU6sq/WC3B5izzlo1Wr5nuo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/KSharpPlus.EventArgs.ZombiedEventArgs.yml",
       "output": {
         ".html": {
@@ -810,7 +870,7 @@
       "output": {
         ".html": {
           "relative_path": "api/KSharpPlus.Exceptions.KuracordException.html",
-          "hash": "GcncQsjqP3hBYmJDwGcDQE4yiUzThHuaUMPf+xcK/WQ="
+          "hash": "uBM4lS8LEa14M3bz7tY+AZd6/0KW/sPg032LfeKhWpw="
         }
       },
       "is_incremental": false,
@@ -894,7 +954,7 @@
       "output": {
         ".html": {
           "relative_path": "api/KSharpPlus.KuracordConfiguration.html",
-          "hash": "ti9z28dxRcC1Eppz4RZ2QqdeHHmU4cE4HQEP2xUz59E="
+          "hash": "6D0jMHgOAuvqi+thRVMtU4uK5zD7++Wv8V/mHkBK7Bo="
         }
       },
       "is_incremental": false,
@@ -906,7 +966,7 @@
       "output": {
         ".html": {
           "relative_path": "api/KSharpPlus.Logging.DefaultLogger.html",
-          "hash": "zTKH8u4PaR7pzaytxrjQC8CUApzrlHzgZ6XYaFChhxM="
+          "hash": "autUYRCoQnxP5lnxpldBzgHTsklMeV31cHnb1SMqqwY="
         }
       },
       "is_incremental": false,
@@ -966,7 +1026,7 @@
       "output": {
         ".html": {
           "relative_path": "api/KSharpPlus.Net.Rest.BaseRestRequest.html",
-          "hash": "r7RTn5AkawHvqXCFrn9H4gDlbTED+dqMh4Tq/8q5BHk="
+          "hash": "b2Oy5Xu93K9I+dORyh6u1/IOWTKsKLE94eNKOISxfKc="
         }
       },
       "is_incremental": false,
@@ -978,7 +1038,7 @@
       "output": {
         ".html": {
           "relative_path": "api/KSharpPlus.Net.Rest.KuracordApiClient.html",
-          "hash": "UcjPPwZ2nhclqzPhnbUEkMsv89XVmzEcE8WjoIb5+hE="
+          "hash": "q/s+xR8YOWbImKK/iP0xYCBL59vBDu+AWDLvIVb4QM4="
         }
       },
       "is_incremental": false,
@@ -990,7 +1050,7 @@
       "output": {
         ".html": {
           "relative_path": "api/KSharpPlus.Net.Rest.RestRequest.html",
-          "hash": "DAEvjBSNoTTWDebOxZaAVDN4PdAXvwt8z6P6gSbKYYY="
+          "hash": "sBV+ZavwKjsg19Vjb52ZmvSthtsI71XDxFXvCj20nDA="
         }
       },
       "is_incremental": false,
@@ -1014,7 +1074,7 @@
       "output": {
         ".html": {
           "relative_path": "api/KSharpPlus.Net.Rest.RestResponse.html",
-          "hash": "IKszY9qUc3OzKvTQkJrkF4FEl1OgTCfcXWV/0lYgIak="
+          "hash": "swHG11LSgysBbBuwOJ0vGI8iqH1t+IwJ/iCdlUJu6T4="
         }
       },
       "is_incremental": false,
@@ -1110,7 +1170,7 @@
       "output": {
         ".html": {
           "relative_path": "api/KSharpPlus.RingBuffer-1.html",
-          "hash": "ZZFPj+jGdAcrzl0/h81Qy3R4VVjIYHb6/Kk2DlKhXRQ="
+          "hash": "UEeGurzcqcic72RHJFEc1v1yIeTuHkG846wh0qiCEuI="
         }
       },
       "is_incremental": false,
@@ -1122,7 +1182,7 @@
       "output": {
         ".html": {
           "relative_path": "api/KSharpPlus.Utilities.html",
-          "hash": "G/aNy9yNGAK7XZJfTPqiPBwRm79ZwKnnMagRPg9fLbg="
+          "hash": "UaJl+BAbU35L9XxTTLWyeD0aLVWDebqi6bF6Lmdd1yo="
         }
       },
       "is_incremental": false,
@@ -1158,7 +1218,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "U1HSzOlwPvOBQCDAWDMwdrW7zP07LmlmmTiozBvMGTU="
+          "hash": "eISbM7NSpBO2Z/FZbBbJQ8z9qOyIFiG7OsXboaejZGA="
         }
       },
       "is_incremental": false,
@@ -1541,23 +1601,25 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 9,
-          "skipped_file_count": 8
+          "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 94,
-          "skipped_file_count": 94
+          "total_file_count": 99,
+          "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

@@ -201,6 +201,18 @@ references:
   commentId: E:KSharpPlus.Clients.KuracordClient.ChannelCreated
   fullName: KSharpPlus.Clients.KuracordClient.ChannelCreated
   nameWithType: KuracordClient.ChannelCreated
+- uid: KSharpPlus.Clients.KuracordClient.ChannelDeleted
+  name: ChannelDeleted
+  href: api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_ChannelDeleted
+  commentId: E:KSharpPlus.Clients.KuracordClient.ChannelDeleted
+  fullName: KSharpPlus.Clients.KuracordClient.ChannelDeleted
+  nameWithType: KuracordClient.ChannelDeleted
+- uid: KSharpPlus.Clients.KuracordClient.ChannelUpdated
+  name: ChannelUpdated
+  href: api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_ChannelUpdated
+  commentId: E:KSharpPlus.Clients.KuracordClient.ChannelUpdated
+  fullName: KSharpPlus.Clients.KuracordClient.ChannelUpdated
+  nameWithType: KuracordClient.ChannelUpdated
 - uid: KSharpPlus.Clients.KuracordClient.ClientErrored
   name: ClientErrored
   href: api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_ClientErrored
@@ -255,6 +267,25 @@ references:
   isSpec: "True"
   fullName: KSharpPlus.Clients.KuracordClient.CreateTextChannelAsync
   nameWithType: KuracordClient.CreateTextChannelAsync
+- uid: KSharpPlus.Clients.KuracordClient.DeleteGuildAsync(KSharpPlus.Entities.Guild.KuracordGuild,System.String)
+  name: DeleteGuildAsync(KuracordGuild, String)
+  href: api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_DeleteGuildAsync_KSharpPlus_Entities_Guild_KuracordGuild_System_String_
+  commentId: M:KSharpPlus.Clients.KuracordClient.DeleteGuildAsync(KSharpPlus.Entities.Guild.KuracordGuild,System.String)
+  fullName: KSharpPlus.Clients.KuracordClient.DeleteGuildAsync(KSharpPlus.Entities.Guild.KuracordGuild, System.String)
+  nameWithType: KuracordClient.DeleteGuildAsync(KuracordGuild, String)
+- uid: KSharpPlus.Clients.KuracordClient.DeleteGuildAsync(System.UInt64,System.String)
+  name: DeleteGuildAsync(UInt64, String)
+  href: api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_DeleteGuildAsync_System_UInt64_System_String_
+  commentId: M:KSharpPlus.Clients.KuracordClient.DeleteGuildAsync(System.UInt64,System.String)
+  fullName: KSharpPlus.Clients.KuracordClient.DeleteGuildAsync(System.UInt64, System.String)
+  nameWithType: KuracordClient.DeleteGuildAsync(UInt64, String)
+- uid: KSharpPlus.Clients.KuracordClient.DeleteGuildAsync*
+  name: DeleteGuildAsync
+  href: api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_DeleteGuildAsync_
+  commentId: Overload:KSharpPlus.Clients.KuracordClient.DeleteGuildAsync
+  isSpec: "True"
+  fullName: KSharpPlus.Clients.KuracordClient.DeleteGuildAsync
+  nameWithType: KuracordClient.DeleteGuildAsync
 - uid: KSharpPlus.Clients.KuracordClient.DeleteMessageAsync(KSharpPlus.Entities.Channel.KuracordChannel,System.UInt64)
   name: DeleteMessageAsync(KuracordChannel, UInt64)
   href: api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_DeleteMessageAsync_KSharpPlus_Entities_Channel_KuracordChannel_System_UInt64_
@@ -267,12 +298,12 @@ references:
   commentId: M:KSharpPlus.Clients.KuracordClient.DeleteMessageAsync(KSharpPlus.Entities.Channel.Message.KuracordMessage)
   fullName: KSharpPlus.Clients.KuracordClient.DeleteMessageAsync(KSharpPlus.Entities.Channel.Message.KuracordMessage)
   nameWithType: KuracordClient.DeleteMessageAsync(KuracordMessage)
-- uid: KSharpPlus.Clients.KuracordClient.DeleteMessageAsync(System.UInt64,System.UInt64)
-  name: DeleteMessageAsync(UInt64, UInt64)
-  href: api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_DeleteMessageAsync_System_UInt64_System_UInt64_
-  commentId: M:KSharpPlus.Clients.KuracordClient.DeleteMessageAsync(System.UInt64,System.UInt64)
-  fullName: KSharpPlus.Clients.KuracordClient.DeleteMessageAsync(System.UInt64, System.UInt64)
-  nameWithType: KuracordClient.DeleteMessageAsync(UInt64, UInt64)
+- uid: KSharpPlus.Clients.KuracordClient.DeleteMessageAsync(System.UInt64,System.UInt64,System.UInt64)
+  name: DeleteMessageAsync(UInt64, UInt64, UInt64)
+  href: api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_DeleteMessageAsync_System_UInt64_System_UInt64_System_UInt64_
+  commentId: M:KSharpPlus.Clients.KuracordClient.DeleteMessageAsync(System.UInt64,System.UInt64,System.UInt64)
+  fullName: KSharpPlus.Clients.KuracordClient.DeleteMessageAsync(System.UInt64, System.UInt64, System.UInt64)
+  nameWithType: KuracordClient.DeleteMessageAsync(UInt64, UInt64, UInt64)
 - uid: KSharpPlus.Clients.KuracordClient.DeleteMessageAsync*
   name: DeleteMessageAsync
   href: api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_DeleteMessageAsync_
@@ -331,12 +362,12 @@ references:
   commentId: M:KSharpPlus.Clients.KuracordClient.EditMessageAsync(KSharpPlus.Entities.Channel.Message.KuracordMessage,System.String)
   fullName: KSharpPlus.Clients.KuracordClient.EditMessageAsync(KSharpPlus.Entities.Channel.Message.KuracordMessage, System.String)
   nameWithType: KuracordClient.EditMessageAsync(KuracordMessage, String)
-- uid: KSharpPlus.Clients.KuracordClient.EditMessageAsync(System.UInt64,System.UInt64,System.String)
-  name: EditMessageAsync(UInt64, UInt64, String)
-  href: api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_EditMessageAsync_System_UInt64_System_UInt64_System_String_
-  commentId: M:KSharpPlus.Clients.KuracordClient.EditMessageAsync(System.UInt64,System.UInt64,System.String)
-  fullName: KSharpPlus.Clients.KuracordClient.EditMessageAsync(System.UInt64, System.UInt64, System.String)
-  nameWithType: KuracordClient.EditMessageAsync(UInt64, UInt64, String)
+- uid: KSharpPlus.Clients.KuracordClient.EditMessageAsync(System.UInt64,System.UInt64,System.UInt64,System.String)
+  name: EditMessageAsync(UInt64, UInt64, UInt64, String)
+  href: api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_EditMessageAsync_System_UInt64_System_UInt64_System_UInt64_System_String_
+  commentId: M:KSharpPlus.Clients.KuracordClient.EditMessageAsync(System.UInt64,System.UInt64,System.UInt64,System.String)
+  fullName: KSharpPlus.Clients.KuracordClient.EditMessageAsync(System.UInt64, System.UInt64, System.UInt64, System.String)
+  nameWithType: KuracordClient.EditMessageAsync(UInt64, UInt64, UInt64, String)
 - uid: KSharpPlus.Clients.KuracordClient.EditMessageAsync*
   name: EditMessageAsync
   href: api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_EditMessageAsync_
@@ -383,6 +414,12 @@ references:
   isSpec: "True"
   fullName: KSharpPlus.Clients.KuracordClient.GetChannel
   nameWithType: KuracordClient.GetChannel
+- uid: KSharpPlus.Clients.KuracordClient.GetChannelAsync(KSharpPlus.Entities.Guild.KuracordGuild,System.UInt64)
+  name: GetChannelAsync(KuracordGuild, UInt64)
+  href: api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_GetChannelAsync_KSharpPlus_Entities_Guild_KuracordGuild_System_UInt64_
+  commentId: M:KSharpPlus.Clients.KuracordClient.GetChannelAsync(KSharpPlus.Entities.Guild.KuracordGuild,System.UInt64)
+  fullName: KSharpPlus.Clients.KuracordClient.GetChannelAsync(KSharpPlus.Entities.Guild.KuracordGuild, System.UInt64)
+  nameWithType: KuracordClient.GetChannelAsync(KuracordGuild, UInt64)
 - uid: KSharpPlus.Clients.KuracordClient.GetChannelAsync(System.UInt64,System.UInt64)
   name: GetChannelAsync(UInt64, UInt64)
   href: api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_GetChannelAsync_System_UInt64_System_UInt64_
@@ -409,6 +446,25 @@ references:
   isSpec: "True"
   fullName: KSharpPlus.Clients.KuracordClient.GetGuildAsync
   nameWithType: KuracordClient.GetGuildAsync
+- uid: KSharpPlus.Clients.KuracordClient.GetGuildMemberAsync(KSharpPlus.Entities.Guild.KuracordGuild,System.UInt64)
+  name: GetGuildMemberAsync(KuracordGuild, UInt64)
+  href: api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_GetGuildMemberAsync_KSharpPlus_Entities_Guild_KuracordGuild_System_UInt64_
+  commentId: M:KSharpPlus.Clients.KuracordClient.GetGuildMemberAsync(KSharpPlus.Entities.Guild.KuracordGuild,System.UInt64)
+  fullName: KSharpPlus.Clients.KuracordClient.GetGuildMemberAsync(KSharpPlus.Entities.Guild.KuracordGuild, System.UInt64)
+  nameWithType: KuracordClient.GetGuildMemberAsync(KuracordGuild, UInt64)
+- uid: KSharpPlus.Clients.KuracordClient.GetGuildMemberAsync(System.UInt64,System.UInt64)
+  name: GetGuildMemberAsync(UInt64, UInt64)
+  href: api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_GetGuildMemberAsync_System_UInt64_System_UInt64_
+  commentId: M:KSharpPlus.Clients.KuracordClient.GetGuildMemberAsync(System.UInt64,System.UInt64)
+  fullName: KSharpPlus.Clients.KuracordClient.GetGuildMemberAsync(System.UInt64, System.UInt64)
+  nameWithType: KuracordClient.GetGuildMemberAsync(UInt64, UInt64)
+- uid: KSharpPlus.Clients.KuracordClient.GetGuildMemberAsync*
+  name: GetGuildMemberAsync
+  href: api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_GetGuildMemberAsync_
+  commentId: Overload:KSharpPlus.Clients.KuracordClient.GetGuildMemberAsync
+  isSpec: "True"
+  fullName: KSharpPlus.Clients.KuracordClient.GetGuildMemberAsync
+  nameWithType: KuracordClient.GetGuildMemberAsync
 - uid: KSharpPlus.Clients.KuracordClient.GetGuildMembersAsync(KSharpPlus.Entities.Guild.KuracordGuild)
   name: GetGuildMembersAsync(KuracordGuild)
   href: api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_GetGuildMembersAsync_KSharpPlus_Entities_Guild_KuracordGuild_
@@ -447,12 +503,12 @@ references:
   commentId: M:KSharpPlus.Clients.KuracordClient.GetMessageAsync(KSharpPlus.Entities.Channel.KuracordChannel,System.UInt64)
   fullName: KSharpPlus.Clients.KuracordClient.GetMessageAsync(KSharpPlus.Entities.Channel.KuracordChannel, System.UInt64)
   nameWithType: KuracordClient.GetMessageAsync(KuracordChannel, UInt64)
-- uid: KSharpPlus.Clients.KuracordClient.GetMessageAsync(System.UInt64,System.UInt64)
-  name: GetMessageAsync(UInt64, UInt64)
-  href: api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_GetMessageAsync_System_UInt64_System_UInt64_
-  commentId: M:KSharpPlus.Clients.KuracordClient.GetMessageAsync(System.UInt64,System.UInt64)
-  fullName: KSharpPlus.Clients.KuracordClient.GetMessageAsync(System.UInt64, System.UInt64)
-  nameWithType: KuracordClient.GetMessageAsync(UInt64, UInt64)
+- uid: KSharpPlus.Clients.KuracordClient.GetMessageAsync(System.UInt64,System.UInt64,System.UInt64)
+  name: GetMessageAsync(UInt64, UInt64, UInt64)
+  href: api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_GetMessageAsync_System_UInt64_System_UInt64_System_UInt64_
+  commentId: M:KSharpPlus.Clients.KuracordClient.GetMessageAsync(System.UInt64,System.UInt64,System.UInt64)
+  fullName: KSharpPlus.Clients.KuracordClient.GetMessageAsync(System.UInt64, System.UInt64, System.UInt64)
+  nameWithType: KuracordClient.GetMessageAsync(UInt64, UInt64, UInt64)
 - uid: KSharpPlus.Clients.KuracordClient.GetMessageAsync*
   name: GetMessageAsync
   href: api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_GetMessageAsync_
@@ -460,18 +516,24 @@ references:
   isSpec: "True"
   fullName: KSharpPlus.Clients.KuracordClient.GetMessageAsync
   nameWithType: KuracordClient.GetMessageAsync
-- uid: KSharpPlus.Clients.KuracordClient.GetMessagesAsync(KSharpPlus.Entities.Channel.KuracordChannel)
-  name: GetMessagesAsync(KuracordChannel)
-  href: api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_GetMessagesAsync_KSharpPlus_Entities_Channel_KuracordChannel_
-  commentId: M:KSharpPlus.Clients.KuracordClient.GetMessagesAsync(KSharpPlus.Entities.Channel.KuracordChannel)
-  fullName: KSharpPlus.Clients.KuracordClient.GetMessagesAsync(KSharpPlus.Entities.Channel.KuracordChannel)
-  nameWithType: KuracordClient.GetMessagesAsync(KuracordChannel)
-- uid: KSharpPlus.Clients.KuracordClient.GetMessagesAsync(System.UInt64)
-  name: GetMessagesAsync(UInt64)
-  href: api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_GetMessagesAsync_System_UInt64_
-  commentId: M:KSharpPlus.Clients.KuracordClient.GetMessagesAsync(System.UInt64)
-  fullName: KSharpPlus.Clients.KuracordClient.GetMessagesAsync(System.UInt64)
-  nameWithType: KuracordClient.GetMessagesAsync(UInt64)
+- uid: KSharpPlus.Clients.KuracordClient.GetMessagesAsync(KSharpPlus.Entities.Channel.KuracordChannel,System.UInt32,System.Nullable{System.UInt64})
+  name: GetMessagesAsync(KuracordChannel, UInt32, Nullable<UInt64>)
+  href: api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_GetMessagesAsync_KSharpPlus_Entities_Channel_KuracordChannel_System_UInt32_System_Nullable_System_UInt64__
+  commentId: M:KSharpPlus.Clients.KuracordClient.GetMessagesAsync(KSharpPlus.Entities.Channel.KuracordChannel,System.UInt32,System.Nullable{System.UInt64})
+  name.vb: GetMessagesAsync(KuracordChannel, UInt32, Nullable(Of UInt64))
+  fullName: KSharpPlus.Clients.KuracordClient.GetMessagesAsync(KSharpPlus.Entities.Channel.KuracordChannel, System.UInt32, System.Nullable<System.UInt64>)
+  fullName.vb: KSharpPlus.Clients.KuracordClient.GetMessagesAsync(KSharpPlus.Entities.Channel.KuracordChannel, System.UInt32, System.Nullable(Of System.UInt64))
+  nameWithType: KuracordClient.GetMessagesAsync(KuracordChannel, UInt32, Nullable<UInt64>)
+  nameWithType.vb: KuracordClient.GetMessagesAsync(KuracordChannel, UInt32, Nullable(Of UInt64))
+- uid: KSharpPlus.Clients.KuracordClient.GetMessagesAsync(System.UInt64,System.UInt64,System.UInt32,System.Nullable{System.UInt64})
+  name: GetMessagesAsync(UInt64, UInt64, UInt32, Nullable<UInt64>)
+  href: api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_GetMessagesAsync_System_UInt64_System_UInt64_System_UInt32_System_Nullable_System_UInt64__
+  commentId: M:KSharpPlus.Clients.KuracordClient.GetMessagesAsync(System.UInt64,System.UInt64,System.UInt32,System.Nullable{System.UInt64})
+  name.vb: GetMessagesAsync(UInt64, UInt64, UInt32, Nullable(Of UInt64))
+  fullName: KSharpPlus.Clients.KuracordClient.GetMessagesAsync(System.UInt64, System.UInt64, System.UInt32, System.Nullable<System.UInt64>)
+  fullName.vb: KSharpPlus.Clients.KuracordClient.GetMessagesAsync(System.UInt64, System.UInt64, System.UInt32, System.Nullable(Of System.UInt64))
+  nameWithType: KuracordClient.GetMessagesAsync(UInt64, UInt64, UInt32, Nullable<UInt64>)
+  nameWithType.vb: KuracordClient.GetMessagesAsync(UInt64, UInt64, UInt32, Nullable(Of UInt64))
 - uid: KSharpPlus.Clients.KuracordClient.GetMessagesAsync*
   name: GetMessagesAsync
   href: api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_GetMessagesAsync_
@@ -517,6 +579,12 @@ references:
   commentId: E:KSharpPlus.Clients.KuracordClient.GuildCreated
   fullName: KSharpPlus.Clients.KuracordClient.GuildCreated
   nameWithType: KuracordClient.GuildCreated
+- uid: KSharpPlus.Clients.KuracordClient.GuildDeleted
+  name: GuildDeleted
+  href: api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_GuildDeleted
+  commentId: E:KSharpPlus.Clients.KuracordClient.GuildDeleted
+  fullName: KSharpPlus.Clients.KuracordClient.GuildDeleted
+  nameWithType: KuracordClient.GuildDeleted
 - uid: KSharpPlus.Clients.KuracordClient.GuildDownloadCompleted
   name: GuildDownloadCompleted
   href: api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_GuildDownloadCompleted
@@ -567,6 +635,12 @@ references:
   commentId: E:KSharpPlus.Clients.KuracordClient.MemberJoined
   fullName: KSharpPlus.Clients.KuracordClient.MemberJoined
   nameWithType: KuracordClient.MemberJoined
+- uid: KSharpPlus.Clients.KuracordClient.MemberLeave
+  name: MemberLeave
+  href: api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_MemberLeave
+  commentId: E:KSharpPlus.Clients.KuracordClient.MemberLeave
+  fullName: KSharpPlus.Clients.KuracordClient.MemberLeave
+  nameWithType: KuracordClient.MemberLeave
 - uid: KSharpPlus.Clients.KuracordClient.MemberUpdated
   name: MemberUpdated
   href: api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_MemberUpdated
@@ -591,6 +665,31 @@ references:
   commentId: E:KSharpPlus.Clients.KuracordClient.MessageUpdated
   fullName: KSharpPlus.Clients.KuracordClient.MessageUpdated
   nameWithType: KuracordClient.MessageUpdated
+- uid: KSharpPlus.Clients.KuracordClient.ModifyChannelAsync(KSharpPlus.Entities.Channel.KuracordChannel,System.String)
+  name: ModifyChannelAsync(KuracordChannel, String)
+  href: api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_ModifyChannelAsync_KSharpPlus_Entities_Channel_KuracordChannel_System_String_
+  commentId: M:KSharpPlus.Clients.KuracordClient.ModifyChannelAsync(KSharpPlus.Entities.Channel.KuracordChannel,System.String)
+  fullName: KSharpPlus.Clients.KuracordClient.ModifyChannelAsync(KSharpPlus.Entities.Channel.KuracordChannel, System.String)
+  nameWithType: KuracordClient.ModifyChannelAsync(KuracordChannel, String)
+- uid: KSharpPlus.Clients.KuracordClient.ModifyChannelAsync(KSharpPlus.Entities.Guild.KuracordGuild,System.UInt64,System.String)
+  name: ModifyChannelAsync(KuracordGuild, UInt64, String)
+  href: api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_ModifyChannelAsync_KSharpPlus_Entities_Guild_KuracordGuild_System_UInt64_System_String_
+  commentId: M:KSharpPlus.Clients.KuracordClient.ModifyChannelAsync(KSharpPlus.Entities.Guild.KuracordGuild,System.UInt64,System.String)
+  fullName: KSharpPlus.Clients.KuracordClient.ModifyChannelAsync(KSharpPlus.Entities.Guild.KuracordGuild, System.UInt64, System.String)
+  nameWithType: KuracordClient.ModifyChannelAsync(KuracordGuild, UInt64, String)
+- uid: KSharpPlus.Clients.KuracordClient.ModifyChannelAsync(System.UInt64,System.UInt64,System.String)
+  name: ModifyChannelAsync(UInt64, UInt64, String)
+  href: api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_ModifyChannelAsync_System_UInt64_System_UInt64_System_String_
+  commentId: M:KSharpPlus.Clients.KuracordClient.ModifyChannelAsync(System.UInt64,System.UInt64,System.String)
+  fullName: KSharpPlus.Clients.KuracordClient.ModifyChannelAsync(System.UInt64, System.UInt64, System.String)
+  nameWithType: KuracordClient.ModifyChannelAsync(UInt64, UInt64, String)
+- uid: KSharpPlus.Clients.KuracordClient.ModifyChannelAsync*
+  name: ModifyChannelAsync
+  href: api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_ModifyChannelAsync_
+  commentId: Overload:KSharpPlus.Clients.KuracordClient.ModifyChannelAsync
+  isSpec: "True"
+  fullName: KSharpPlus.Clients.KuracordClient.ModifyChannelAsync
+  nameWithType: KuracordClient.ModifyChannelAsync
 - uid: KSharpPlus.Clients.KuracordClient.ModifyGuildAsync(KSharpPlus.Entities.Guild.KuracordGuild,System.String)
   name: ModifyGuildAsync(KuracordGuild, String)
   href: api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_ModifyGuildAsync_KSharpPlus_Entities_Guild_KuracordGuild_System_String_
@@ -698,12 +797,6 @@ references:
   commentId: M:KSharpPlus.Clients.KuracordClient.SendMessageAsync(KSharpPlus.Entities.Channel.KuracordChannel,System.String)
   fullName: KSharpPlus.Clients.KuracordClient.SendMessageAsync(KSharpPlus.Entities.Channel.KuracordChannel, System.String)
   nameWithType: KuracordClient.SendMessageAsync(KuracordChannel, String)
-- uid: KSharpPlus.Clients.KuracordClient.SendMessageAsync(System.UInt64,System.String)
-  name: SendMessageAsync(UInt64, String)
-  href: api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_SendMessageAsync_System_UInt64_System_String_
-  commentId: M:KSharpPlus.Clients.KuracordClient.SendMessageAsync(System.UInt64,System.String)
-  fullName: KSharpPlus.Clients.KuracordClient.SendMessageAsync(System.UInt64, System.String)
-  nameWithType: KuracordClient.SendMessageAsync(UInt64, String)
 - uid: KSharpPlus.Clients.KuracordClient.SendMessageAsync(System.UInt64,System.UInt64,System.String)
   name: SendMessageAsync(UInt64, UInt64, String)
   href: api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_SendMessageAsync_System_UInt64_System_UInt64_System_String_
@@ -754,6 +847,12 @@ references:
   isSpec: "True"
   fullName: KSharpPlus.Clients.KuracordClient.UpdateCurrentUserAsync
   nameWithType: KuracordClient.UpdateCurrentUserAsync
+- uid: KSharpPlus.Clients.KuracordClient.UserUpdated
+  name: UserUpdated
+  href: api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_UserUpdated
+  commentId: E:KSharpPlus.Clients.KuracordClient.UserUpdated
+  fullName: KSharpPlus.Clients.KuracordClient.UserUpdated
+  nameWithType: KuracordClient.UserUpdated
 - uid: KSharpPlus.Clients.KuracordClient.Zombied
   name: Zombied
   href: api/KSharpPlus.Clients.KuracordClient.html#KSharpPlus_Clients_KuracordClient_Zombied
@@ -823,6 +922,32 @@ references:
   commentId: T:KSharpPlus.Entities.Channel.KuracordChannel
   fullName: KSharpPlus.Entities.Channel.KuracordChannel
   nameWithType: KuracordChannel
+- uid: KSharpPlus.Entities.Channel.KuracordChannel.CloneAsync
+  name: CloneAsync()
+  href: api/KSharpPlus.Entities.Channel.KuracordChannel.html#KSharpPlus_Entities_Channel_KuracordChannel_CloneAsync
+  commentId: M:KSharpPlus.Entities.Channel.KuracordChannel.CloneAsync
+  fullName: KSharpPlus.Entities.Channel.KuracordChannel.CloneAsync()
+  nameWithType: KuracordChannel.CloneAsync()
+- uid: KSharpPlus.Entities.Channel.KuracordChannel.CloneAsync*
+  name: CloneAsync
+  href: api/KSharpPlus.Entities.Channel.KuracordChannel.html#KSharpPlus_Entities_Channel_KuracordChannel_CloneAsync_
+  commentId: Overload:KSharpPlus.Entities.Channel.KuracordChannel.CloneAsync
+  isSpec: "True"
+  fullName: KSharpPlus.Entities.Channel.KuracordChannel.CloneAsync
+  nameWithType: KuracordChannel.CloneAsync
+- uid: KSharpPlus.Entities.Channel.KuracordChannel.DeleteAsync
+  name: DeleteAsync()
+  href: api/KSharpPlus.Entities.Channel.KuracordChannel.html#KSharpPlus_Entities_Channel_KuracordChannel_DeleteAsync
+  commentId: M:KSharpPlus.Entities.Channel.KuracordChannel.DeleteAsync
+  fullName: KSharpPlus.Entities.Channel.KuracordChannel.DeleteAsync()
+  nameWithType: KuracordChannel.DeleteAsync()
+- uid: KSharpPlus.Entities.Channel.KuracordChannel.DeleteAsync*
+  name: DeleteAsync
+  href: api/KSharpPlus.Entities.Channel.KuracordChannel.html#KSharpPlus_Entities_Channel_KuracordChannel_DeleteAsync_
+  commentId: Overload:KSharpPlus.Entities.Channel.KuracordChannel.DeleteAsync
+  isSpec: "True"
+  fullName: KSharpPlus.Entities.Channel.KuracordChannel.DeleteAsync
+  nameWithType: KuracordChannel.DeleteAsync
 - uid: KSharpPlus.Entities.Channel.KuracordChannel.DeleteMessageAsync(KSharpPlus.Entities.Channel.Message.KuracordMessage)
   name: DeleteMessageAsync(KuracordMessage)
   href: api/KSharpPlus.Entities.Channel.KuracordChannel.html#KSharpPlus_Entities_Channel_KuracordChannel_DeleteMessageAsync_KSharpPlus_Entities_Channel_Message_KuracordMessage_
@@ -906,12 +1031,15 @@ references:
   isSpec: "True"
   fullName: KSharpPlus.Entities.Channel.KuracordChannel.GetMessageAsync
   nameWithType: KuracordChannel.GetMessageAsync
-- uid: KSharpPlus.Entities.Channel.KuracordChannel.GetMessagesAsync
-  name: GetMessagesAsync()
-  href: api/KSharpPlus.Entities.Channel.KuracordChannel.html#KSharpPlus_Entities_Channel_KuracordChannel_GetMessagesAsync
-  commentId: M:KSharpPlus.Entities.Channel.KuracordChannel.GetMessagesAsync
-  fullName: KSharpPlus.Entities.Channel.KuracordChannel.GetMessagesAsync()
-  nameWithType: KuracordChannel.GetMessagesAsync()
+- uid: KSharpPlus.Entities.Channel.KuracordChannel.GetMessagesAsync(System.UInt32,System.Nullable{System.UInt64})
+  name: GetMessagesAsync(UInt32, Nullable<UInt64>)
+  href: api/KSharpPlus.Entities.Channel.KuracordChannel.html#KSharpPlus_Entities_Channel_KuracordChannel_GetMessagesAsync_System_UInt32_System_Nullable_System_UInt64__
+  commentId: M:KSharpPlus.Entities.Channel.KuracordChannel.GetMessagesAsync(System.UInt32,System.Nullable{System.UInt64})
+  name.vb: GetMessagesAsync(UInt32, Nullable(Of UInt64))
+  fullName: KSharpPlus.Entities.Channel.KuracordChannel.GetMessagesAsync(System.UInt32, System.Nullable<System.UInt64>)
+  fullName.vb: KSharpPlus.Entities.Channel.KuracordChannel.GetMessagesAsync(System.UInt32, System.Nullable(Of System.UInt64))
+  nameWithType: KuracordChannel.GetMessagesAsync(UInt32, Nullable<UInt64>)
+  nameWithType.vb: KuracordChannel.GetMessagesAsync(UInt32, Nullable(Of UInt64))
 - uid: KSharpPlus.Entities.Channel.KuracordChannel.GetMessagesAsync*
   name: GetMessagesAsync
   href: api/KSharpPlus.Entities.Channel.KuracordChannel.html#KSharpPlus_Entities_Channel_KuracordChannel_GetMessagesAsync_
@@ -958,6 +1086,19 @@ references:
   isSpec: "True"
   fullName: KSharpPlus.Entities.Channel.KuracordChannel.Mention
   nameWithType: KuracordChannel.Mention
+- uid: KSharpPlus.Entities.Channel.KuracordChannel.ModifyAsync(System.String)
+  name: ModifyAsync(String)
+  href: api/KSharpPlus.Entities.Channel.KuracordChannel.html#KSharpPlus_Entities_Channel_KuracordChannel_ModifyAsync_System_String_
+  commentId: M:KSharpPlus.Entities.Channel.KuracordChannel.ModifyAsync(System.String)
+  fullName: KSharpPlus.Entities.Channel.KuracordChannel.ModifyAsync(System.String)
+  nameWithType: KuracordChannel.ModifyAsync(String)
+- uid: KSharpPlus.Entities.Channel.KuracordChannel.ModifyAsync*
+  name: ModifyAsync
+  href: api/KSharpPlus.Entities.Channel.KuracordChannel.html#KSharpPlus_Entities_Channel_KuracordChannel_ModifyAsync_
+  commentId: Overload:KSharpPlus.Entities.Channel.KuracordChannel.ModifyAsync
+  isSpec: "True"
+  fullName: KSharpPlus.Entities.Channel.KuracordChannel.ModifyAsync
+  nameWithType: KuracordChannel.ModifyAsync
 - uid: KSharpPlus.Entities.Channel.KuracordChannel.Name
   name: Name
   href: api/KSharpPlus.Entities.Channel.KuracordChannel.html#KSharpPlus_Entities_Channel_KuracordChannel_Name
@@ -2056,6 +2197,19 @@ references:
   isSpec: "True"
   fullName: KSharpPlus.Entities.Guild.KuracordGuild.CreateTextChannelAsync
   nameWithType: KuracordGuild.CreateTextChannelAsync
+- uid: KSharpPlus.Entities.Guild.KuracordGuild.DeleteAsync(System.String)
+  name: DeleteAsync(String)
+  href: api/KSharpPlus.Entities.Guild.KuracordGuild.html#KSharpPlus_Entities_Guild_KuracordGuild_DeleteAsync_System_String_
+  commentId: M:KSharpPlus.Entities.Guild.KuracordGuild.DeleteAsync(System.String)
+  fullName: KSharpPlus.Entities.Guild.KuracordGuild.DeleteAsync(System.String)
+  nameWithType: KuracordGuild.DeleteAsync(String)
+- uid: KSharpPlus.Entities.Guild.KuracordGuild.DeleteAsync*
+  name: DeleteAsync
+  href: api/KSharpPlus.Entities.Guild.KuracordGuild.html#KSharpPlus_Entities_Guild_KuracordGuild_DeleteAsync_
+  commentId: Overload:KSharpPlus.Entities.Guild.KuracordGuild.DeleteAsync
+  isSpec: "True"
+  fullName: KSharpPlus.Entities.Guild.KuracordGuild.DeleteAsync
+  nameWithType: KuracordGuild.DeleteAsync
 - uid: KSharpPlus.Entities.Guild.KuracordGuild.Description
   name: Description
   href: api/KSharpPlus.Entities.Guild.KuracordGuild.html#KSharpPlus_Entities_Guild_KuracordGuild_Description
@@ -2218,6 +2372,19 @@ references:
   isSpec: "True"
   fullName: KSharpPlus.Entities.Guild.KuracordGuild.IconUrl
   nameWithType: KuracordGuild.IconUrl
+- uid: KSharpPlus.Entities.Guild.KuracordGuild.LeaveAsync
+  name: LeaveAsync()
+  href: api/KSharpPlus.Entities.Guild.KuracordGuild.html#KSharpPlus_Entities_Guild_KuracordGuild_LeaveAsync
+  commentId: M:KSharpPlus.Entities.Guild.KuracordGuild.LeaveAsync
+  fullName: KSharpPlus.Entities.Guild.KuracordGuild.LeaveAsync()
+  nameWithType: KuracordGuild.LeaveAsync()
+- uid: KSharpPlus.Entities.Guild.KuracordGuild.LeaveAsync*
+  name: LeaveAsync
+  href: api/KSharpPlus.Entities.Guild.KuracordGuild.html#KSharpPlus_Entities_Guild_KuracordGuild_LeaveAsync_
+  commentId: Overload:KSharpPlus.Entities.Guild.KuracordGuild.LeaveAsync
+  isSpec: "True"
+  fullName: KSharpPlus.Entities.Guild.KuracordGuild.LeaveAsync
+  nameWithType: KuracordGuild.LeaveAsync
 - uid: KSharpPlus.Entities.Guild.KuracordGuild.Members
   name: Members
   href: api/KSharpPlus.Entities.Guild.KuracordGuild.html#KSharpPlus_Entities_Guild_KuracordGuild_Members
@@ -2328,6 +2495,25 @@ references:
   isSpec: "True"
   fullName: KSharpPlus.Entities.Guild.KuracordGuild.OwnerId
   nameWithType: KuracordGuild.OwnerId
+- uid: KSharpPlus.Entities.Guild.KuracordGuild.RemoveMemberAsync(KSharpPlus.Entities.Guild.KuracordMember)
+  name: RemoveMemberAsync(KuracordMember)
+  href: api/KSharpPlus.Entities.Guild.KuracordGuild.html#KSharpPlus_Entities_Guild_KuracordGuild_RemoveMemberAsync_KSharpPlus_Entities_Guild_KuracordMember_
+  commentId: M:KSharpPlus.Entities.Guild.KuracordGuild.RemoveMemberAsync(KSharpPlus.Entities.Guild.KuracordMember)
+  fullName: KSharpPlus.Entities.Guild.KuracordGuild.RemoveMemberAsync(KSharpPlus.Entities.Guild.KuracordMember)
+  nameWithType: KuracordGuild.RemoveMemberAsync(KuracordMember)
+- uid: KSharpPlus.Entities.Guild.KuracordGuild.RemoveMemberAsync(System.UInt64)
+  name: RemoveMemberAsync(UInt64)
+  href: api/KSharpPlus.Entities.Guild.KuracordGuild.html#KSharpPlus_Entities_Guild_KuracordGuild_RemoveMemberAsync_System_UInt64_
+  commentId: M:KSharpPlus.Entities.Guild.KuracordGuild.RemoveMemberAsync(System.UInt64)
+  fullName: KSharpPlus.Entities.Guild.KuracordGuild.RemoveMemberAsync(System.UInt64)
+  nameWithType: KuracordGuild.RemoveMemberAsync(UInt64)
+- uid: KSharpPlus.Entities.Guild.KuracordGuild.RemoveMemberAsync*
+  name: RemoveMemberAsync
+  href: api/KSharpPlus.Entities.Guild.KuracordGuild.html#KSharpPlus_Entities_Guild_KuracordGuild_RemoveMemberAsync_
+  commentId: Overload:KSharpPlus.Entities.Guild.KuracordGuild.RemoveMemberAsync
+  isSpec: "True"
+  fullName: KSharpPlus.Entities.Guild.KuracordGuild.RemoveMemberAsync
+  nameWithType: KuracordGuild.RemoveMemberAsync
 - uid: KSharpPlus.Entities.Guild.KuracordGuild.Roles
   name: Roles
   href: api/KSharpPlus.Entities.Guild.KuracordGuild.html#KSharpPlus_Entities_Guild_KuracordGuild_Roles
@@ -2541,6 +2727,19 @@ references:
   isSpec: "True"
   fullName: KSharpPlus.Entities.Guild.KuracordMember.Inequality
   nameWithType: KuracordMember.Inequality
+- uid: KSharpPlus.Entities.Guild.KuracordMember.RemoveAsync
+  name: RemoveAsync()
+  href: api/KSharpPlus.Entities.Guild.KuracordMember.html#KSharpPlus_Entities_Guild_KuracordMember_RemoveAsync
+  commentId: M:KSharpPlus.Entities.Guild.KuracordMember.RemoveAsync
+  fullName: KSharpPlus.Entities.Guild.KuracordMember.RemoveAsync()
+  nameWithType: KuracordMember.RemoveAsync()
+- uid: KSharpPlus.Entities.Guild.KuracordMember.RemoveAsync*
+  name: RemoveAsync
+  href: api/KSharpPlus.Entities.Guild.KuracordMember.html#KSharpPlus_Entities_Guild_KuracordMember_RemoveAsync_
+  commentId: Overload:KSharpPlus.Entities.Guild.KuracordMember.RemoveAsync
+  isSpec: "True"
+  fullName: KSharpPlus.Entities.Guild.KuracordMember.RemoveAsync
+  nameWithType: KuracordMember.RemoveAsync
 - uid: KSharpPlus.Entities.Guild.KuracordMember.ToString
   name: ToString()
   href: api/KSharpPlus.Entities.Guild.KuracordMember.html#KSharpPlus_Entities_Guild_KuracordMember_ToString
@@ -3510,30 +3709,6 @@ references:
   commentId: F:KSharpPlus.Enums.Channel.ChannelType.Unknown
   fullName: KSharpPlus.Enums.Channel.ChannelType.Unknown
   nameWithType: ChannelType.Unknown
-- uid: KSharpPlus.Enums.GatewayCompressionLevel
-  name: GatewayCompressionLevel
-  href: api/KSharpPlus.Enums.GatewayCompressionLevel.html
-  commentId: T:KSharpPlus.Enums.GatewayCompressionLevel
-  fullName: KSharpPlus.Enums.GatewayCompressionLevel
-  nameWithType: GatewayCompressionLevel
-- uid: KSharpPlus.Enums.GatewayCompressionLevel.None
-  name: None
-  href: api/KSharpPlus.Enums.GatewayCompressionLevel.html#KSharpPlus_Enums_GatewayCompressionLevel_None
-  commentId: F:KSharpPlus.Enums.GatewayCompressionLevel.None
-  fullName: KSharpPlus.Enums.GatewayCompressionLevel.None
-  nameWithType: GatewayCompressionLevel.None
-- uid: KSharpPlus.Enums.GatewayCompressionLevel.Payload
-  name: Payload
-  href: api/KSharpPlus.Enums.GatewayCompressionLevel.html#KSharpPlus_Enums_GatewayCompressionLevel_Payload
-  commentId: F:KSharpPlus.Enums.GatewayCompressionLevel.Payload
-  fullName: KSharpPlus.Enums.GatewayCompressionLevel.Payload
-  nameWithType: GatewayCompressionLevel.Payload
-- uid: KSharpPlus.Enums.GatewayCompressionLevel.Stream
-  name: Stream
-  href: api/KSharpPlus.Enums.GatewayCompressionLevel.html#KSharpPlus_Enums_GatewayCompressionLevel_Stream
-  commentId: F:KSharpPlus.Enums.GatewayCompressionLevel.Stream
-  fullName: KSharpPlus.Enums.GatewayCompressionLevel.Stream
-  nameWithType: GatewayCompressionLevel.Stream
 - uid: KSharpPlus.Enums.PermissionLevel
   name: PermissionLevel
   href: api/KSharpPlus.Enums.PermissionLevel.html
@@ -3793,6 +3968,83 @@ references:
   isSpec: "True"
   fullName: KSharpPlus.EventArgs.Channel.ChannelCreateEventArgs.Guild
   nameWithType: ChannelCreateEventArgs.Guild
+- uid: KSharpPlus.EventArgs.Channel.ChannelDeleteEventArgs
+  name: ChannelDeleteEventArgs
+  href: api/KSharpPlus.EventArgs.Channel.ChannelDeleteEventArgs.html
+  commentId: T:KSharpPlus.EventArgs.Channel.ChannelDeleteEventArgs
+  fullName: KSharpPlus.EventArgs.Channel.ChannelDeleteEventArgs
+  nameWithType: ChannelDeleteEventArgs
+- uid: KSharpPlus.EventArgs.Channel.ChannelDeleteEventArgs.Channel
+  name: Channel
+  href: api/KSharpPlus.EventArgs.Channel.ChannelDeleteEventArgs.html#KSharpPlus_EventArgs_Channel_ChannelDeleteEventArgs_Channel
+  commentId: P:KSharpPlus.EventArgs.Channel.ChannelDeleteEventArgs.Channel
+  fullName: KSharpPlus.EventArgs.Channel.ChannelDeleteEventArgs.Channel
+  nameWithType: ChannelDeleteEventArgs.Channel
+- uid: KSharpPlus.EventArgs.Channel.ChannelDeleteEventArgs.Channel*
+  name: Channel
+  href: api/KSharpPlus.EventArgs.Channel.ChannelDeleteEventArgs.html#KSharpPlus_EventArgs_Channel_ChannelDeleteEventArgs_Channel_
+  commentId: Overload:KSharpPlus.EventArgs.Channel.ChannelDeleteEventArgs.Channel
+  isSpec: "True"
+  fullName: KSharpPlus.EventArgs.Channel.ChannelDeleteEventArgs.Channel
+  nameWithType: ChannelDeleteEventArgs.Channel
+- uid: KSharpPlus.EventArgs.Channel.ChannelDeleteEventArgs.Guild
+  name: Guild
+  href: api/KSharpPlus.EventArgs.Channel.ChannelDeleteEventArgs.html#KSharpPlus_EventArgs_Channel_ChannelDeleteEventArgs_Guild
+  commentId: P:KSharpPlus.EventArgs.Channel.ChannelDeleteEventArgs.Guild
+  fullName: KSharpPlus.EventArgs.Channel.ChannelDeleteEventArgs.Guild
+  nameWithType: ChannelDeleteEventArgs.Guild
+- uid: KSharpPlus.EventArgs.Channel.ChannelDeleteEventArgs.Guild*
+  name: Guild
+  href: api/KSharpPlus.EventArgs.Channel.ChannelDeleteEventArgs.html#KSharpPlus_EventArgs_Channel_ChannelDeleteEventArgs_Guild_
+  commentId: Overload:KSharpPlus.EventArgs.Channel.ChannelDeleteEventArgs.Guild
+  isSpec: "True"
+  fullName: KSharpPlus.EventArgs.Channel.ChannelDeleteEventArgs.Guild
+  nameWithType: ChannelDeleteEventArgs.Guild
+- uid: KSharpPlus.EventArgs.Channel.ChannelUpdateEventArgs
+  name: ChannelUpdateEventArgs
+  href: api/KSharpPlus.EventArgs.Channel.ChannelUpdateEventArgs.html
+  commentId: T:KSharpPlus.EventArgs.Channel.ChannelUpdateEventArgs
+  fullName: KSharpPlus.EventArgs.Channel.ChannelUpdateEventArgs
+  nameWithType: ChannelUpdateEventArgs
+- uid: KSharpPlus.EventArgs.Channel.ChannelUpdateEventArgs.ChannelAfter
+  name: ChannelAfter
+  href: api/KSharpPlus.EventArgs.Channel.ChannelUpdateEventArgs.html#KSharpPlus_EventArgs_Channel_ChannelUpdateEventArgs_ChannelAfter
+  commentId: P:KSharpPlus.EventArgs.Channel.ChannelUpdateEventArgs.ChannelAfter
+  fullName: KSharpPlus.EventArgs.Channel.ChannelUpdateEventArgs.ChannelAfter
+  nameWithType: ChannelUpdateEventArgs.ChannelAfter
+- uid: KSharpPlus.EventArgs.Channel.ChannelUpdateEventArgs.ChannelAfter*
+  name: ChannelAfter
+  href: api/KSharpPlus.EventArgs.Channel.ChannelUpdateEventArgs.html#KSharpPlus_EventArgs_Channel_ChannelUpdateEventArgs_ChannelAfter_
+  commentId: Overload:KSharpPlus.EventArgs.Channel.ChannelUpdateEventArgs.ChannelAfter
+  isSpec: "True"
+  fullName: KSharpPlus.EventArgs.Channel.ChannelUpdateEventArgs.ChannelAfter
+  nameWithType: ChannelUpdateEventArgs.ChannelAfter
+- uid: KSharpPlus.EventArgs.Channel.ChannelUpdateEventArgs.ChannelBefore
+  name: ChannelBefore
+  href: api/KSharpPlus.EventArgs.Channel.ChannelUpdateEventArgs.html#KSharpPlus_EventArgs_Channel_ChannelUpdateEventArgs_ChannelBefore
+  commentId: P:KSharpPlus.EventArgs.Channel.ChannelUpdateEventArgs.ChannelBefore
+  fullName: KSharpPlus.EventArgs.Channel.ChannelUpdateEventArgs.ChannelBefore
+  nameWithType: ChannelUpdateEventArgs.ChannelBefore
+- uid: KSharpPlus.EventArgs.Channel.ChannelUpdateEventArgs.ChannelBefore*
+  name: ChannelBefore
+  href: api/KSharpPlus.EventArgs.Channel.ChannelUpdateEventArgs.html#KSharpPlus_EventArgs_Channel_ChannelUpdateEventArgs_ChannelBefore_
+  commentId: Overload:KSharpPlus.EventArgs.Channel.ChannelUpdateEventArgs.ChannelBefore
+  isSpec: "True"
+  fullName: KSharpPlus.EventArgs.Channel.ChannelUpdateEventArgs.ChannelBefore
+  nameWithType: ChannelUpdateEventArgs.ChannelBefore
+- uid: KSharpPlus.EventArgs.Channel.ChannelUpdateEventArgs.Guild
+  name: Guild
+  href: api/KSharpPlus.EventArgs.Channel.ChannelUpdateEventArgs.html#KSharpPlus_EventArgs_Channel_ChannelUpdateEventArgs_Guild
+  commentId: P:KSharpPlus.EventArgs.Channel.ChannelUpdateEventArgs.Guild
+  fullName: KSharpPlus.EventArgs.Channel.ChannelUpdateEventArgs.Guild
+  nameWithType: ChannelUpdateEventArgs.Guild
+- uid: KSharpPlus.EventArgs.Channel.ChannelUpdateEventArgs.Guild*
+  name: Guild
+  href: api/KSharpPlus.EventArgs.Channel.ChannelUpdateEventArgs.html#KSharpPlus_EventArgs_Channel_ChannelUpdateEventArgs_Guild_
+  commentId: Overload:KSharpPlus.EventArgs.Channel.ChannelUpdateEventArgs.Guild
+  isSpec: "True"
+  fullName: KSharpPlus.EventArgs.Channel.ChannelUpdateEventArgs.Guild
+  nameWithType: ChannelUpdateEventArgs.Guild
 - uid: KSharpPlus.EventArgs.ClientErrorEventArgs
   name: ClientErrorEventArgs
   href: api/KSharpPlus.EventArgs.ClientErrorEventArgs.html
@@ -3850,6 +4102,25 @@ references:
   isSpec: "True"
   fullName: KSharpPlus.EventArgs.Guild.GuildCreateEventArgs.Guild
   nameWithType: GuildCreateEventArgs.Guild
+- uid: KSharpPlus.EventArgs.Guild.GuildDeleteEventArgs
+  name: GuildDeleteEventArgs
+  href: api/KSharpPlus.EventArgs.Guild.GuildDeleteEventArgs.html
+  commentId: T:KSharpPlus.EventArgs.Guild.GuildDeleteEventArgs
+  fullName: KSharpPlus.EventArgs.Guild.GuildDeleteEventArgs
+  nameWithType: GuildDeleteEventArgs
+- uid: KSharpPlus.EventArgs.Guild.GuildDeleteEventArgs.Guild
+  name: Guild
+  href: api/KSharpPlus.EventArgs.Guild.GuildDeleteEventArgs.html#KSharpPlus_EventArgs_Guild_GuildDeleteEventArgs_Guild
+  commentId: P:KSharpPlus.EventArgs.Guild.GuildDeleteEventArgs.Guild
+  fullName: KSharpPlus.EventArgs.Guild.GuildDeleteEventArgs.Guild
+  nameWithType: GuildDeleteEventArgs.Guild
+- uid: KSharpPlus.EventArgs.Guild.GuildDeleteEventArgs.Guild*
+  name: Guild
+  href: api/KSharpPlus.EventArgs.Guild.GuildDeleteEventArgs.html#KSharpPlus_EventArgs_Guild_GuildDeleteEventArgs_Guild_
+  commentId: Overload:KSharpPlus.EventArgs.Guild.GuildDeleteEventArgs.Guild
+  isSpec: "True"
+  fullName: KSharpPlus.EventArgs.Guild.GuildDeleteEventArgs.Guild
+  nameWithType: GuildDeleteEventArgs.Guild
 - uid: KSharpPlus.EventArgs.Guild.GuildDownloadCompletedEventArgs
   name: GuildDownloadCompletedEventArgs
   href: api/KSharpPlus.EventArgs.Guild.GuildDownloadCompletedEventArgs.html
@@ -3939,6 +4210,38 @@ references:
   isSpec: "True"
   fullName: KSharpPlus.EventArgs.Guild.Member.MemberJoinedEventArgs.Member
   nameWithType: MemberJoinedEventArgs.Member
+- uid: KSharpPlus.EventArgs.Guild.Member.MemberLeaveEventArgs
+  name: MemberLeaveEventArgs
+  href: api/KSharpPlus.EventArgs.Guild.Member.MemberLeaveEventArgs.html
+  commentId: T:KSharpPlus.EventArgs.Guild.Member.MemberLeaveEventArgs
+  fullName: KSharpPlus.EventArgs.Guild.Member.MemberLeaveEventArgs
+  nameWithType: MemberLeaveEventArgs
+- uid: KSharpPlus.EventArgs.Guild.Member.MemberLeaveEventArgs.Guild
+  name: Guild
+  href: api/KSharpPlus.EventArgs.Guild.Member.MemberLeaveEventArgs.html#KSharpPlus_EventArgs_Guild_Member_MemberLeaveEventArgs_Guild
+  commentId: P:KSharpPlus.EventArgs.Guild.Member.MemberLeaveEventArgs.Guild
+  fullName: KSharpPlus.EventArgs.Guild.Member.MemberLeaveEventArgs.Guild
+  nameWithType: MemberLeaveEventArgs.Guild
+- uid: KSharpPlus.EventArgs.Guild.Member.MemberLeaveEventArgs.Guild*
+  name: Guild
+  href: api/KSharpPlus.EventArgs.Guild.Member.MemberLeaveEventArgs.html#KSharpPlus_EventArgs_Guild_Member_MemberLeaveEventArgs_Guild_
+  commentId: Overload:KSharpPlus.EventArgs.Guild.Member.MemberLeaveEventArgs.Guild
+  isSpec: "True"
+  fullName: KSharpPlus.EventArgs.Guild.Member.MemberLeaveEventArgs.Guild
+  nameWithType: MemberLeaveEventArgs.Guild
+- uid: KSharpPlus.EventArgs.Guild.Member.MemberLeaveEventArgs.Member
+  name: Member
+  href: api/KSharpPlus.EventArgs.Guild.Member.MemberLeaveEventArgs.html#KSharpPlus_EventArgs_Guild_Member_MemberLeaveEventArgs_Member
+  commentId: P:KSharpPlus.EventArgs.Guild.Member.MemberLeaveEventArgs.Member
+  fullName: KSharpPlus.EventArgs.Guild.Member.MemberLeaveEventArgs.Member
+  nameWithType: MemberLeaveEventArgs.Member
+- uid: KSharpPlus.EventArgs.Guild.Member.MemberLeaveEventArgs.Member*
+  name: Member
+  href: api/KSharpPlus.EventArgs.Guild.Member.MemberLeaveEventArgs.html#KSharpPlus_EventArgs_Guild_Member_MemberLeaveEventArgs_Member_
+  commentId: Overload:KSharpPlus.EventArgs.Guild.Member.MemberLeaveEventArgs.Member
+  isSpec: "True"
+  fullName: KSharpPlus.EventArgs.Guild.Member.MemberLeaveEventArgs.Member
+  nameWithType: MemberLeaveEventArgs.Member
 - uid: KSharpPlus.EventArgs.Guild.Member.MemberUpdatedEventArgs
   name: MemberUpdatedEventArgs
   href: api/KSharpPlus.EventArgs.Guild.Member.MemberUpdatedEventArgs.html
@@ -4428,6 +4731,44 @@ references:
   isSpec: "True"
   fullName: KSharpPlus.EventArgs.UnknownEventArgs.Json
   nameWithType: UnknownEventArgs.Json
+- uid: KSharpPlus.EventArgs.User
+  name: KSharpPlus.EventArgs.User
+  href: api/KSharpPlus.EventArgs.User.html
+  commentId: N:KSharpPlus.EventArgs.User
+  fullName: KSharpPlus.EventArgs.User
+  nameWithType: KSharpPlus.EventArgs.User
+- uid: KSharpPlus.EventArgs.User.UserUpdateEventArgs
+  name: UserUpdateEventArgs
+  href: api/KSharpPlus.EventArgs.User.UserUpdateEventArgs.html
+  commentId: T:KSharpPlus.EventArgs.User.UserUpdateEventArgs
+  fullName: KSharpPlus.EventArgs.User.UserUpdateEventArgs
+  nameWithType: UserUpdateEventArgs
+- uid: KSharpPlus.EventArgs.User.UserUpdateEventArgs.UserAfter
+  name: UserAfter
+  href: api/KSharpPlus.EventArgs.User.UserUpdateEventArgs.html#KSharpPlus_EventArgs_User_UserUpdateEventArgs_UserAfter
+  commentId: P:KSharpPlus.EventArgs.User.UserUpdateEventArgs.UserAfter
+  fullName: KSharpPlus.EventArgs.User.UserUpdateEventArgs.UserAfter
+  nameWithType: UserUpdateEventArgs.UserAfter
+- uid: KSharpPlus.EventArgs.User.UserUpdateEventArgs.UserAfter*
+  name: UserAfter
+  href: api/KSharpPlus.EventArgs.User.UserUpdateEventArgs.html#KSharpPlus_EventArgs_User_UserUpdateEventArgs_UserAfter_
+  commentId: Overload:KSharpPlus.EventArgs.User.UserUpdateEventArgs.UserAfter
+  isSpec: "True"
+  fullName: KSharpPlus.EventArgs.User.UserUpdateEventArgs.UserAfter
+  nameWithType: UserUpdateEventArgs.UserAfter
+- uid: KSharpPlus.EventArgs.User.UserUpdateEventArgs.UserBefore
+  name: UserBefore
+  href: api/KSharpPlus.EventArgs.User.UserUpdateEventArgs.html#KSharpPlus_EventArgs_User_UserUpdateEventArgs_UserBefore
+  commentId: P:KSharpPlus.EventArgs.User.UserUpdateEventArgs.UserBefore
+  fullName: KSharpPlus.EventArgs.User.UserUpdateEventArgs.UserBefore
+  nameWithType: UserUpdateEventArgs.UserBefore
+- uid: KSharpPlus.EventArgs.User.UserUpdateEventArgs.UserBefore*
+  name: UserBefore
+  href: api/KSharpPlus.EventArgs.User.UserUpdateEventArgs.html#KSharpPlus_EventArgs_User_UserUpdateEventArgs_UserBefore_
+  commentId: Overload:KSharpPlus.EventArgs.User.UserUpdateEventArgs.UserBefore
+  isSpec: "True"
+  fullName: KSharpPlus.EventArgs.User.UserUpdateEventArgs.UserBefore
+  nameWithType: UserUpdateEventArgs.UserBefore
 - uid: KSharpPlus.EventArgs.ZombiedEventArgs
   name: ZombiedEventArgs
   href: api/KSharpPlus.EventArgs.ZombiedEventArgs.html
@@ -4765,19 +5106,6 @@ references:
   isSpec: "True"
   fullName: KSharpPlus.KuracordConfiguration.AutoReconnect
   nameWithType: KuracordConfiguration.AutoReconnect
-- uid: KSharpPlus.KuracordConfiguration.GatewayCompressionLevel
-  name: GatewayCompressionLevel
-  href: api/KSharpPlus.KuracordConfiguration.html#KSharpPlus_KuracordConfiguration_GatewayCompressionLevel
-  commentId: P:KSharpPlus.KuracordConfiguration.GatewayCompressionLevel
-  fullName: KSharpPlus.KuracordConfiguration.GatewayCompressionLevel
-  nameWithType: KuracordConfiguration.GatewayCompressionLevel
-- uid: KSharpPlus.KuracordConfiguration.GatewayCompressionLevel*
-  name: GatewayCompressionLevel
-  href: api/KSharpPlus.KuracordConfiguration.html#KSharpPlus_KuracordConfiguration_GatewayCompressionLevel_
-  commentId: Overload:KSharpPlus.KuracordConfiguration.GatewayCompressionLevel
-  isSpec: "True"
-  fullName: KSharpPlus.KuracordConfiguration.GatewayCompressionLevel
-  nameWithType: KuracordConfiguration.GatewayCompressionLevel
 - uid: KSharpPlus.KuracordConfiguration.HttpTimeout
   name: HttpTimeout
   href: api/KSharpPlus.KuracordConfiguration.html#KSharpPlus_KuracordConfiguration_HttpTimeout
@@ -4982,15 +5310,15 @@ references:
   isSpec: "True"
   fullName: KSharpPlus.Logging.DefaultLogger.Log
   nameWithType: DefaultLogger.Log
-- uid: KSharpPlus.Logging.DefaultLogger.Log``1(LogLevel,EventId,``0,Exception,Func{``0,Exception,System.String})
-  name: Log<TState>(LogLevel, EventId, TState, Exception, Func<TState, Exception, String>)
-  href: api/KSharpPlus.Logging.DefaultLogger.html#KSharpPlus_Logging_DefaultLogger_Log__1_LogLevel_EventId___0_Exception_Func___0_Exception_System_String__
-  commentId: M:KSharpPlus.Logging.DefaultLogger.Log``1(LogLevel,EventId,``0,Exception,Func{``0,Exception,System.String})
-  name.vb: Log(Of TState)(LogLevel, EventId, TState, Exception, Func(Of TState, Exception, String))
-  fullName: KSharpPlus.Logging.DefaultLogger.Log<TState>(LogLevel, EventId, TState, Exception, Func<TState, Exception, System.String>)
-  fullName.vb: KSharpPlus.Logging.DefaultLogger.Log(Of TState)(LogLevel, EventId, TState, Exception, Func(Of TState, Exception, System.String))
-  nameWithType: DefaultLogger.Log<TState>(LogLevel, EventId, TState, Exception, Func<TState, Exception, String>)
-  nameWithType.vb: DefaultLogger.Log(Of TState)(LogLevel, EventId, TState, Exception, Func(Of TState, Exception, String))
+- uid: KSharpPlus.Logging.DefaultLogger.Log``1(LogLevel,EventId,``0,System.Nullable{Exception},Func{``0,System.Nullable{Exception},System.String})
+  name: Log<TState>(LogLevel, EventId, TState, Nullable<Exception>, Func<TState, Nullable<Exception>, String>)
+  href: api/KSharpPlus.Logging.DefaultLogger.html#KSharpPlus_Logging_DefaultLogger_Log__1_LogLevel_EventId___0_System_Nullable_Exception__Func___0_System_Nullable_Exception__System_String__
+  commentId: M:KSharpPlus.Logging.DefaultLogger.Log``1(LogLevel,EventId,``0,System.Nullable{Exception},Func{``0,System.Nullable{Exception},System.String})
+  name.vb: Log(Of TState)(LogLevel, EventId, TState, Nullable(Of Exception), Func(Of TState, Nullable(Of Exception), String))
+  fullName: KSharpPlus.Logging.DefaultLogger.Log<TState>(LogLevel, EventId, TState, System.Nullable<Exception>, Func<TState, System.Nullable<Exception>, System.String>)
+  fullName.vb: KSharpPlus.Logging.DefaultLogger.Log(Of TState)(LogLevel, EventId, TState, System.Nullable(Of Exception), Func(Of TState, System.Nullable(Of Exception), System.String))
+  nameWithType: DefaultLogger.Log<TState>(LogLevel, EventId, TState, Nullable<Exception>, Func<TState, Nullable<Exception>, String>)
+  nameWithType.vb: DefaultLogger.Log(Of TState)(LogLevel, EventId, TState, Nullable(Of Exception), Func(Of TState, Nullable(Of Exception), String))
 - uid: KSharpPlus.Logging.LoggerEvents
   name: LoggerEvents
   href: api/KSharpPlus.Logging.LoggerEvents.html
@@ -5414,19 +5742,6 @@ references:
   isSpec: "True"
   fullName: KSharpPlus.Net.Rest.BaseRestRequest.Method
   nameWithType: BaseRestRequest.Method
-- uid: KSharpPlus.Net.Rest.BaseRestRequest.RateLimitWaitOverride
-  name: RateLimitWaitOverride
-  href: api/KSharpPlus.Net.Rest.BaseRestRequest.html#KSharpPlus_Net_Rest_BaseRestRequest_RateLimitWaitOverride
-  commentId: P:KSharpPlus.Net.Rest.BaseRestRequest.RateLimitWaitOverride
-  fullName: KSharpPlus.Net.Rest.BaseRestRequest.RateLimitWaitOverride
-  nameWithType: BaseRestRequest.RateLimitWaitOverride
-- uid: KSharpPlus.Net.Rest.BaseRestRequest.RateLimitWaitOverride*
-  name: RateLimitWaitOverride
-  href: api/KSharpPlus.Net.Rest.BaseRestRequest.html#KSharpPlus_Net_Rest_BaseRestRequest_RateLimitWaitOverride_
-  commentId: Overload:KSharpPlus.Net.Rest.BaseRestRequest.RateLimitWaitOverride
-  isSpec: "True"
-  fullName: KSharpPlus.Net.Rest.BaseRestRequest.RateLimitWaitOverride
-  nameWithType: BaseRestRequest.RateLimitWaitOverride
 - uid: KSharpPlus.Net.Rest.BaseRestRequest.RequestTaskSource
   name: RequestTaskSource
   href: api/KSharpPlus.Net.Rest.BaseRestRequest.html#KSharpPlus_Net_Rest_BaseRestRequest_RequestTaskSource
@@ -5440,19 +5755,6 @@ references:
   isSpec: "True"
   fullName: KSharpPlus.Net.Rest.BaseRestRequest.RequestTaskSource
   nameWithType: BaseRestRequest.RequestTaskSource
-- uid: KSharpPlus.Net.Rest.BaseRestRequest.Route
-  name: Route
-  href: api/KSharpPlus.Net.Rest.BaseRestRequest.html#KSharpPlus_Net_Rest_BaseRestRequest_Route
-  commentId: P:KSharpPlus.Net.Rest.BaseRestRequest.Route
-  fullName: KSharpPlus.Net.Rest.BaseRestRequest.Route
-  nameWithType: BaseRestRequest.Route
-- uid: KSharpPlus.Net.Rest.BaseRestRequest.Route*
-  name: Route
-  href: api/KSharpPlus.Net.Rest.BaseRestRequest.html#KSharpPlus_Net_Rest_BaseRestRequest_Route_
-  commentId: Overload:KSharpPlus.Net.Rest.BaseRestRequest.Route
-  isSpec: "True"
-  fullName: KSharpPlus.Net.Rest.BaseRestRequest.Route
-  nameWithType: BaseRestRequest.Route
 - uid: KSharpPlus.Net.Rest.BaseRestRequest.SetCompleted(KSharpPlus.Net.Rest.RestResponse)
   name: SetCompleted(RestResponse)
   href: api/KSharpPlus.Net.Rest.BaseRestRequest.html#KSharpPlus_Net_Rest_BaseRestRequest_SetCompleted_KSharpPlus_Net_Rest_RestResponse_
@@ -5973,15 +6275,6 @@ references:
   fullName.vb: KSharpPlus.RingBuffer(Of T)
   nameWithType: RingBuffer<T>
   nameWithType.vb: RingBuffer(Of T)
-- uid: KSharpPlus.RingBuffer`1.#ctor(System.Collections.IEnumerable{`0},System.Int32)
-  name: RingBuffer(IEnumerable<T>, Int32)
-  href: api/KSharpPlus.RingBuffer-1.html#KSharpPlus_RingBuffer_1__ctor_System_Collections_IEnumerable__0__System_Int32_
-  commentId: M:KSharpPlus.RingBuffer`1.#ctor(System.Collections.IEnumerable{`0},System.Int32)
-  name.vb: RingBuffer(IEnumerable(Of T), Int32)
-  fullName: KSharpPlus.RingBuffer<T>.RingBuffer(System.Collections.IEnumerable<T>, System.Int32)
-  fullName.vb: KSharpPlus.RingBuffer(Of T).RingBuffer(System.Collections.IEnumerable(Of T), System.Int32)
-  nameWithType: RingBuffer<T>.RingBuffer(IEnumerable<T>, Int32)
-  nameWithType.vb: RingBuffer(Of T).RingBuffer(IEnumerable(Of T), Int32)
 - uid: KSharpPlus.RingBuffer`1.#ctor(System.Int32)
   name: RingBuffer(Int32)
   href: api/KSharpPlus.RingBuffer-1.html#KSharpPlus_RingBuffer_1__ctor_System_Int32_
@@ -6145,23 +6438,6 @@ references:
   fullName.vb: KSharpPlus.RingBuffer(Of T).GetEnumerator
   nameWithType: RingBuffer<T>.GetEnumerator
   nameWithType.vb: RingBuffer(Of T).GetEnumerator
-- uid: KSharpPlus.RingBuffer`1.InternalBuffer
-  name: InternalBuffer
-  href: api/KSharpPlus.RingBuffer-1.html#KSharpPlus_RingBuffer_1_InternalBuffer
-  commentId: P:KSharpPlus.RingBuffer`1.InternalBuffer
-  fullName: KSharpPlus.RingBuffer<T>.InternalBuffer
-  fullName.vb: KSharpPlus.RingBuffer(Of T).InternalBuffer
-  nameWithType: RingBuffer<T>.InternalBuffer
-  nameWithType.vb: RingBuffer(Of T).InternalBuffer
-- uid: KSharpPlus.RingBuffer`1.InternalBuffer*
-  name: InternalBuffer
-  href: api/KSharpPlus.RingBuffer-1.html#KSharpPlus_RingBuffer_1_InternalBuffer_
-  commentId: Overload:KSharpPlus.RingBuffer`1.InternalBuffer
-  isSpec: "True"
-  fullName: KSharpPlus.RingBuffer<T>.InternalBuffer
-  fullName.vb: KSharpPlus.RingBuffer(Of T).InternalBuffer
-  nameWithType: RingBuffer<T>.InternalBuffer
-  nameWithType.vb: RingBuffer(Of T).InternalBuffer
 - uid: KSharpPlus.RingBuffer`1.IsReadOnly
   name: IsReadOnly
   href: api/KSharpPlus.RingBuffer-1.html#KSharpPlus_RingBuffer_1_IsReadOnly
@@ -6248,3 +6524,19 @@ references:
   commentId: T:KSharpPlus.Utilities
   fullName: KSharpPlus.Utilities
   nameWithType: Utilities
+- uid: KSharpPlus.Utilities.Replace*
+  name: Replace
+  href: api/KSharpPlus.Utilities.html#KSharpPlus_Utilities_Replace_
+  commentId: Overload:KSharpPlus.Utilities.Replace
+  isSpec: "True"
+  fullName: KSharpPlus.Utilities.Replace
+  nameWithType: Utilities.Replace
+- uid: KSharpPlus.Utilities.Replace``1(List{``0},Predicate{``0},``0)
+  name: Replace<T>(List<T>, Predicate<T>, T)
+  href: api/KSharpPlus.Utilities.html#KSharpPlus_Utilities_Replace__1_List___0__Predicate___0____0_
+  commentId: M:KSharpPlus.Utilities.Replace``1(List{``0},Predicate{``0},``0)
+  name.vb: Replace(Of T)(List(Of T), Predicate(Of T), T)
+  fullName: KSharpPlus.Utilities.Replace<T>(List<T>, Predicate<T>, T)
+  fullName.vb: KSharpPlus.Utilities.Replace(Of T)(List(Of T), Predicate(Of T), T)
+  nameWithType: Utilities.Replace<T>(List<T>, Predicate<T>, T)
+  nameWithType.vb: Utilities.Replace(Of T)(List(Of T), Predicate(Of T), T)

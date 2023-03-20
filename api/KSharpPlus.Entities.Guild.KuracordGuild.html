@@ -503,7 +503,7 @@
     <a href="https://github.com/Kuracord/KSharpPlus/new/master/apiSpec/new?filename=KSharpPlus_Entities_Guild_KuracordGuild_CreateChannelAsync_System_String_KSharpPlus_Enums_Channel_ChannelType_.md&amp;value=---%0Auid%3A%20KSharpPlus.Entities.Guild.KuracordGuild.CreateChannelAsync(System.String%2CKSharpPlus.Enums.Channel.ChannelType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Kuracord/KSharpPlus/blob/master/KSharpPlus/Entities/Guild/KuracordGuild.cs/#L155">View Source</a>
+    <a href="https://github.com/Kuracord/KSharpPlus/blob/master/KSharpPlus/Entities/Guild/KuracordGuild.cs/#L163">View Source</a>
   </span>
   <a id="KSharpPlus_Entities_Guild_KuracordGuild_CreateChannelAsync_" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.CreateChannelAsync*"></a>
   <h4 id="KSharpPlus_Entities_Guild_KuracordGuild_CreateChannelAsync_System_String_KSharpPlus_Enums_Channel_ChannelType_" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.CreateChannelAsync(System.String,KSharpPlus.Enums.Channel.ChannelType)">CreateChannelAsync(String, ChannelType)</h4>
@@ -590,7 +590,7 @@
     <a href="https://github.com/Kuracord/KSharpPlus/new/master/apiSpec/new?filename=KSharpPlus_Entities_Guild_KuracordGuild_CreateTextChannelAsync_System_String_.md&amp;value=---%0Auid%3A%20KSharpPlus.Entities.Guild.KuracordGuild.CreateTextChannelAsync(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Kuracord/KSharpPlus/blob/master/KSharpPlus/Entities/Guild/KuracordGuild.cs/#L143">View Source</a>
+    <a href="https://github.com/Kuracord/KSharpPlus/blob/master/KSharpPlus/Entities/Guild/KuracordGuild.cs/#L151">View Source</a>
   </span>
   <a id="KSharpPlus_Entities_Guild_KuracordGuild_CreateTextChannelAsync_" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.CreateTextChannelAsync*"></a>
   <h4 id="KSharpPlus_Entities_Guild_KuracordGuild_CreateTextChannelAsync_System_String_" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.CreateTextChannelAsync(System.String)">CreateTextChannelAsync(String)</h4>
@@ -668,10 +668,80 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/Kuracord/KSharpPlus/new/master/apiSpec/new?filename=KSharpPlus_Entities_Guild_KuracordGuild_DeleteAsync_System_String_.md&amp;value=---%0Auid%3A%20KSharpPlus.Entities.Guild.KuracordGuild.DeleteAsync(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Kuracord/KSharpPlus/blob/master/KSharpPlus/Entities/Guild/KuracordGuild.cs/#L140">View Source</a>
+  </span>
+  <a id="KSharpPlus_Entities_Guild_KuracordGuild_DeleteAsync_" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.DeleteAsync*"></a>
+  <h4 id="KSharpPlus_Entities_Guild_KuracordGuild_DeleteAsync_System_String_" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.DeleteAsync(System.String)">DeleteAsync(String)</h4>
+  <div class="markdown level1 summary"><p>Deletes this guild. Requires the caller to be the owner of the guild.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task DeleteAsync(string password)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">password</span></td>
+        <td><p>Your account password.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="KSharpPlus.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client is not the owner of the guild.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="KSharpPlus.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Kuracord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/Kuracord/KSharpPlus/new/master/apiSpec/new?filename=KSharpPlus_Entities_Guild_KuracordGuild_Equals_KSharpPlus_Entities_Guild_KuracordGuild_.md&amp;value=---%0Auid%3A%20KSharpPlus.Entities.Guild.KuracordGuild.Equals(KSharpPlus.Entities.Guild.KuracordGuild)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Kuracord/KSharpPlus/blob/master/KSharpPlus/Entities/Guild/KuracordGuild.cs/#L281">View Source</a>
+    <a href="https://github.com/Kuracord/KSharpPlus/blob/master/KSharpPlus/Entities/Guild/KuracordGuild.cs/#L315">View Source</a>
   </span>
   <a id="KSharpPlus_Entities_Guild_KuracordGuild_Equals_" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.Equals*"></a>
   <h4 id="KSharpPlus_Entities_Guild_KuracordGuild_Equals_KSharpPlus_Entities_Guild_KuracordGuild_" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.Equals(KSharpPlus.Entities.Guild.KuracordGuild)">Equals(KuracordGuild)</h4>
@@ -721,7 +791,7 @@
     <a href="https://github.com/Kuracord/KSharpPlus/new/master/apiSpec/new?filename=KSharpPlus_Entities_Guild_KuracordGuild_Equals_System_Object_.md&amp;value=---%0Auid%3A%20KSharpPlus.Entities.Guild.KuracordGuild.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Kuracord/KSharpPlus/blob/master/KSharpPlus/Entities/Guild/KuracordGuild.cs/#L274">View Source</a>
+    <a href="https://github.com/Kuracord/KSharpPlus/blob/master/KSharpPlus/Entities/Guild/KuracordGuild.cs/#L308">View Source</a>
   </span>
   <a id="KSharpPlus_Entities_Guild_KuracordGuild_Equals_" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.Equals*"></a>
   <h4 id="KSharpPlus_Entities_Guild_KuracordGuild_Equals_System_Object_" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.Equals(System.Object)">Equals(Object)</h4>
@@ -773,7 +843,7 @@
     <a href="https://github.com/Kuracord/KSharpPlus/new/master/apiSpec/new?filename=KSharpPlus_Entities_Guild_KuracordGuild_GetChannelAsync_System_UInt64_.md&amp;value=---%0Auid%3A%20KSharpPlus.Entities.Guild.KuracordGuild.GetChannelAsync(System.UInt64)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Kuracord/KSharpPlus/blob/master/KSharpPlus/Entities/Guild/KuracordGuild.cs/#L171">View Source</a>
+    <a href="https://github.com/Kuracord/KSharpPlus/blob/master/KSharpPlus/Entities/Guild/KuracordGuild.cs/#L179">View Source</a>
   </span>
   <a id="KSharpPlus_Entities_Guild_KuracordGuild_GetChannelAsync_" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.GetChannelAsync*"></a>
   <h4 id="KSharpPlus_Entities_Guild_KuracordGuild_GetChannelAsync_System_UInt64_" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.GetChannelAsync(System.UInt64)">GetChannelAsync(UInt64)</h4>
@@ -839,7 +909,7 @@
     <a href="https://github.com/Kuracord/KSharpPlus/new/master/apiSpec/new?filename=KSharpPlus_Entities_Guild_KuracordGuild_GetChannelsAsync.md&amp;value=---%0Auid%3A%20KSharpPlus.Entities.Guild.KuracordGuild.GetChannelsAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Kuracord/KSharpPlus/blob/master/KSharpPlus/Entities/Guild/KuracordGuild.cs/#L162">View Source</a>
+    <a href="https://github.com/Kuracord/KSharpPlus/blob/master/KSharpPlus/Entities/Guild/KuracordGuild.cs/#L170">View Source</a>
   </span>
   <a id="KSharpPlus_Entities_Guild_KuracordGuild_GetChannelsAsync_" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.GetChannelsAsync*"></a>
   <h4 id="KSharpPlus_Entities_Guild_KuracordGuild_GetChannelsAsync" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.GetChannelsAsync">GetChannelsAsync()</h4>
@@ -887,7 +957,7 @@
     <a href="https://github.com/Kuracord/KSharpPlus/new/master/apiSpec/new?filename=KSharpPlus_Entities_Guild_KuracordGuild_GetHashCode.md&amp;value=---%0Auid%3A%20KSharpPlus.Entities.Guild.KuracordGuild.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Kuracord/KSharpPlus/blob/master/KSharpPlus/Entities/Guild/KuracordGuild.cs/#L291">View Source</a>
+    <a href="https://github.com/Kuracord/KSharpPlus/blob/master/KSharpPlus/Entities/Guild/KuracordGuild.cs/#L325">View Source</a>
   </span>
   <a id="KSharpPlus_Entities_Guild_KuracordGuild_GetHashCode_" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.GetHashCode*"></a>
   <h4 id="KSharpPlus_Entities_Guild_KuracordGuild_GetHashCode" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.GetHashCode">GetHashCode()</h4>
@@ -953,7 +1023,7 @@
     <a href="https://github.com/Kuracord/KSharpPlus/new/master/apiSpec/new?filename=KSharpPlus_Entities_Guild_KuracordGuild_GetMemberAsync_System_UInt64_.md&amp;value=---%0Auid%3A%20KSharpPlus.Entities.Guild.KuracordGuild.GetMemberAsync(System.UInt64)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Kuracord/KSharpPlus/blob/master/KSharpPlus/Entities/Guild/KuracordGuild.cs/#L183">View Source</a>
+    <a href="https://github.com/Kuracord/KSharpPlus/blob/master/KSharpPlus/Entities/Guild/KuracordGuild.cs/#L191">View Source</a>
   </span>
   <a id="KSharpPlus_Entities_Guild_KuracordGuild_GetMemberAsync_" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.GetMemberAsync*"></a>
   <h4 id="KSharpPlus_Entities_Guild_KuracordGuild_GetMemberAsync_System_UInt64_" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.GetMemberAsync(System.UInt64)">GetMemberAsync(UInt64)</h4>
@@ -1019,7 +1089,7 @@
     <a href="https://github.com/Kuracord/KSharpPlus/new/master/apiSpec/new?filename=KSharpPlus_Entities_Guild_KuracordGuild_GetMembersAsync.md&amp;value=---%0Auid%3A%20KSharpPlus.Entities.Guild.KuracordGuild.GetMembersAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Kuracord/KSharpPlus/blob/master/KSharpPlus/Entities/Guild/KuracordGuild.cs/#L198">View Source</a>
+    <a href="https://github.com/Kuracord/KSharpPlus/blob/master/KSharpPlus/Entities/Guild/KuracordGuild.cs/#L206">View Source</a>
   </span>
   <a id="KSharpPlus_Entities_Guild_KuracordGuild_GetMembersAsync_" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.GetMembersAsync*"></a>
   <h4 id="KSharpPlus_Entities_Guild_KuracordGuild_GetMembersAsync" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.GetMembersAsync">GetMembersAsync()</h4>
@@ -1067,7 +1137,7 @@
     <a href="https://github.com/Kuracord/KSharpPlus/new/master/apiSpec/new?filename=KSharpPlus_Entities_Guild_KuracordGuild_GetRole_System_UInt64_.md&amp;value=---%0Auid%3A%20KSharpPlus.Entities.Guild.KuracordGuild.GetRole(System.UInt64)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Kuracord/KSharpPlus/blob/master/KSharpPlus/Entities/Guild/KuracordGuild.cs/#L233">View Source</a>
+    <a href="https://github.com/Kuracord/KSharpPlus/blob/master/KSharpPlus/Entities/Guild/KuracordGuild.cs/#L267">View Source</a>
   </span>
   <a id="KSharpPlus_Entities_Guild_KuracordGuild_GetRole_" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.GetRole*"></a>
   <h4 id="KSharpPlus_Entities_Guild_KuracordGuild_GetRole_System_UInt64_" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.GetRole(System.UInt64)">GetRole(UInt64)</h4>
@@ -1108,6 +1178,53 @@
       <tr>
         <td><a class="xref" href="KSharpPlus.Entities.Guild.KuracordRole.html">KuracordRole</a></td>
         <td><p>Requested role or null if the role does not exists.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Kuracord/KSharpPlus/new/master/apiSpec/new?filename=KSharpPlus_Entities_Guild_KuracordGuild_LeaveAsync.md&amp;value=---%0Auid%3A%20KSharpPlus.Entities.Guild.KuracordGuild.LeaveAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Kuracord/KSharpPlus/blob/master/KSharpPlus/Entities/Guild/KuracordGuild.cs/#L260">View Source</a>
+  </span>
+  <a id="KSharpPlus_Entities_Guild_KuracordGuild_LeaveAsync_" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.LeaveAsync*"></a>
+  <h4 id="KSharpPlus_Entities_Guild_KuracordGuild_LeaveAsync" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.LeaveAsync">LeaveAsync()</h4>
+  <div class="markdown level1 summary"><p>Leaves this guild.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task LeaveAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="KSharpPlus.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Kuracord is unable to process the request.</p>
 </td>
       </tr>
     </tbody>
@@ -1198,7 +1315,7 @@
     <a href="https://github.com/Kuracord/KSharpPlus/new/master/apiSpec/new?filename=KSharpPlus_Entities_Guild_KuracordGuild_ModifyMemberAsync_KSharpPlus_Entities_Guild_KuracordMember_System_String_.md&amp;value=---%0Auid%3A%20KSharpPlus.Entities.Guild.KuracordGuild.ModifyMemberAsync(KSharpPlus.Entities.Guild.KuracordMember%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Kuracord/KSharpPlus/blob/master/KSharpPlus/Entities/Guild/KuracordGuild.cs/#L214">View Source</a>
+    <a href="https://github.com/Kuracord/KSharpPlus/blob/master/KSharpPlus/Entities/Guild/KuracordGuild.cs/#L222">View Source</a>
   </span>
   <a id="KSharpPlus_Entities_Guild_KuracordGuild_ModifyMemberAsync_" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.ModifyMemberAsync*"></a>
   <h4 id="KSharpPlus_Entities_Guild_KuracordGuild_ModifyMemberAsync_KSharpPlus_Entities_Guild_KuracordMember_System_String_" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.ModifyMemberAsync(KSharpPlus.Entities.Guild.KuracordMember,System.String)">ModifyMemberAsync(KuracordMember, String)</h4>
@@ -1285,7 +1402,7 @@
     <a href="https://github.com/Kuracord/KSharpPlus/new/master/apiSpec/new?filename=KSharpPlus_Entities_Guild_KuracordGuild_ModifyMemberAsync_System_UInt64_System_String_.md&amp;value=---%0Auid%3A%20KSharpPlus.Entities.Guild.KuracordGuild.ModifyMemberAsync(System.UInt64%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Kuracord/KSharpPlus/blob/master/KSharpPlus/Entities/Guild/KuracordGuild.cs/#L226">View Source</a>
+    <a href="https://github.com/Kuracord/KSharpPlus/blob/master/KSharpPlus/Entities/Guild/KuracordGuild.cs/#L234">View Source</a>
   </span>
   <a id="KSharpPlus_Entities_Guild_KuracordGuild_ModifyMemberAsync_" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.ModifyMemberAsync*"></a>
   <h4 id="KSharpPlus_Entities_Guild_KuracordGuild_ModifyMemberAsync_System_UInt64_System_String_" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.ModifyMemberAsync(System.UInt64,System.String)">ModifyMemberAsync(UInt64, String)</h4>
@@ -1369,10 +1486,170 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/Kuracord/KSharpPlus/new/master/apiSpec/new?filename=KSharpPlus_Entities_Guild_KuracordGuild_RemoveMemberAsync_KSharpPlus_Entities_Guild_KuracordMember_.md&amp;value=---%0Auid%3A%20KSharpPlus.Entities.Guild.KuracordGuild.RemoveMemberAsync(KSharpPlus.Entities.Guild.KuracordMember)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Kuracord/KSharpPlus/blob/master/KSharpPlus/Entities/Guild/KuracordGuild.cs/#L244">View Source</a>
+  </span>
+  <a id="KSharpPlus_Entities_Guild_KuracordGuild_RemoveMemberAsync_" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.RemoveMemberAsync*"></a>
+  <h4 id="KSharpPlus_Entities_Guild_KuracordGuild_RemoveMemberAsync_KSharpPlus_Entities_Guild_KuracordMember_" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.RemoveMemberAsync(KSharpPlus.Entities.Guild.KuracordMember)">RemoveMemberAsync(KuracordMember)</h4>
+  <div class="markdown level1 summary"><p>Kicks the member from this guild.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task RemoveMemberAsync(KuracordMember member)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="KSharpPlus.Entities.Guild.KuracordMember.html">KuracordMember</a></td>
+        <td><span class="parametername">member</span></td>
+        <td><p>The member to kick.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="KSharpPlus.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="KSharpPlus.Enums.Permissions.html#KSharpPlus_Enums_Permissions_KickMembers">KickMembers</a> permission.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="KSharpPlus.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the member does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="KSharpPlus.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="KSharpPlus.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Kuracord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Kuracord/KSharpPlus/new/master/apiSpec/new?filename=KSharpPlus_Entities_Guild_KuracordGuild_RemoveMemberAsync_System_UInt64_.md&amp;value=---%0Auid%3A%20KSharpPlus.Entities.Guild.KuracordGuild.RemoveMemberAsync(System.UInt64)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Kuracord/KSharpPlus/blob/master/KSharpPlus/Entities/Guild/KuracordGuild.cs/#L254">View Source</a>
+  </span>
+  <a id="KSharpPlus_Entities_Guild_KuracordGuild_RemoveMemberAsync_" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.RemoveMemberAsync*"></a>
+  <h4 id="KSharpPlus_Entities_Guild_KuracordGuild_RemoveMemberAsync_System_UInt64_" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.RemoveMemberAsync(System.UInt64)">RemoveMemberAsync(UInt64)</h4>
+  <div class="markdown level1 summary"><p>Kicks the member from this guild.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task RemoveMemberAsync(ulong memberId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">UInt64</a></td>
+        <td><span class="parametername">memberId</span></td>
+        <td><p>ID of the member to kick.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="KSharpPlus.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="KSharpPlus.Enums.Permissions.html#KSharpPlus_Enums_Permissions_KickMembers">KickMembers</a> permission.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="KSharpPlus.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the member does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="KSharpPlus.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="KSharpPlus.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Kuracord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/Kuracord/KSharpPlus/new/master/apiSpec/new?filename=KSharpPlus_Entities_Guild_KuracordGuild_SendMessageAsync_KSharpPlus_Entities_Channel_KuracordChannel_System_String_.md&amp;value=---%0Auid%3A%20KSharpPlus.Entities.Guild.KuracordGuild.SendMessageAsync(KSharpPlus.Entities.Channel.KuracordChannel%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Kuracord/KSharpPlus/blob/master/KSharpPlus/Entities/Guild/KuracordGuild.cs/#L245">View Source</a>
+    <a href="https://github.com/Kuracord/KSharpPlus/blob/master/KSharpPlus/Entities/Guild/KuracordGuild.cs/#L279">View Source</a>
   </span>
   <a id="KSharpPlus_Entities_Guild_KuracordGuild_SendMessageAsync_" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.SendMessageAsync*"></a>
   <h4 id="KSharpPlus_Entities_Guild_KuracordGuild_SendMessageAsync_KSharpPlus_Entities_Channel_KuracordChannel_System_String_" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.SendMessageAsync(KSharpPlus.Entities.Channel.KuracordChannel,System.String)">SendMessageAsync(KuracordChannel, String)</h4>
@@ -1459,7 +1736,7 @@
     <a href="https://github.com/Kuracord/KSharpPlus/new/master/apiSpec/new?filename=KSharpPlus_Entities_Guild_KuracordGuild_SendMessageAsync_System_UInt64_System_String_.md&amp;value=---%0Auid%3A%20KSharpPlus.Entities.Guild.KuracordGuild.SendMessageAsync(System.UInt64%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Kuracord/KSharpPlus/blob/master/KSharpPlus/Entities/Guild/KuracordGuild.cs/#L257">View Source</a>
+    <a href="https://github.com/Kuracord/KSharpPlus/blob/master/KSharpPlus/Entities/Guild/KuracordGuild.cs/#L291">View Source</a>
   </span>
   <a id="KSharpPlus_Entities_Guild_KuracordGuild_SendMessageAsync_" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.SendMessageAsync*"></a>
   <h4 id="KSharpPlus_Entities_Guild_KuracordGuild_SendMessageAsync_System_UInt64_System_String_" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.SendMessageAsync(System.UInt64,System.String)">SendMessageAsync(UInt64, String)</h4>
@@ -1546,7 +1823,7 @@
     <a href="https://github.com/Kuracord/KSharpPlus/new/master/apiSpec/new?filename=KSharpPlus_Entities_Guild_KuracordGuild_ToString.md&amp;value=---%0Auid%3A%20KSharpPlus.Entities.Guild.KuracordGuild.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Kuracord/KSharpPlus/blob/master/KSharpPlus/Entities/Guild/KuracordGuild.cs/#L267">View Source</a>
+    <a href="https://github.com/Kuracord/KSharpPlus/blob/master/KSharpPlus/Entities/Guild/KuracordGuild.cs/#L301">View Source</a>
   </span>
   <a id="KSharpPlus_Entities_Guild_KuracordGuild_ToString_" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.ToString*"></a>
   <h4 id="KSharpPlus_Entities_Guild_KuracordGuild_ToString" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.ToString">ToString()</h4>
@@ -1582,7 +1859,7 @@
     <a href="https://github.com/Kuracord/KSharpPlus/new/master/apiSpec/new?filename=KSharpPlus_Entities_Guild_KuracordGuild_op_Equality_KSharpPlus_Entities_Guild_KuracordGuild_KSharpPlus_Entities_Guild_KuracordGuild_.md&amp;value=---%0Auid%3A%20KSharpPlus.Entities.Guild.KuracordGuild.op_Equality(KSharpPlus.Entities.Guild.KuracordGuild%2CKSharpPlus.Entities.Guild.KuracordGuild)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Kuracord/KSharpPlus/blob/master/KSharpPlus/Entities/Guild/KuracordGuild.cs/#L299">View Source</a>
+    <a href="https://github.com/Kuracord/KSharpPlus/blob/master/KSharpPlus/Entities/Guild/KuracordGuild.cs/#L333">View Source</a>
   </span>
   <a id="KSharpPlus_Entities_Guild_KuracordGuild_op_Equality_" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.op_Equality*"></a>
   <h4 id="KSharpPlus_Entities_Guild_KuracordGuild_op_Equality_KSharpPlus_Entities_Guild_KuracordGuild_KSharpPlus_Entities_Guild_KuracordGuild_" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.op_Equality(KSharpPlus.Entities.Guild.KuracordGuild,KSharpPlus.Entities.Guild.KuracordGuild)">Equality(KuracordGuild, KuracordGuild)</h4>
@@ -1638,7 +1915,7 @@
     <a href="https://github.com/Kuracord/KSharpPlus/new/master/apiSpec/new?filename=KSharpPlus_Entities_Guild_KuracordGuild_op_Inequality_KSharpPlus_Entities_Guild_KuracordGuild_KSharpPlus_Entities_Guild_KuracordGuild_.md&amp;value=---%0Auid%3A%20KSharpPlus.Entities.Guild.KuracordGuild.op_Inequality(KSharpPlus.Entities.Guild.KuracordGuild%2CKSharpPlus.Entities.Guild.KuracordGuild)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Kuracord/KSharpPlus/blob/master/KSharpPlus/Entities/Guild/KuracordGuild.cs/#L314">View Source</a>
+    <a href="https://github.com/Kuracord/KSharpPlus/blob/master/KSharpPlus/Entities/Guild/KuracordGuild.cs/#L348">View Source</a>
   </span>
   <a id="KSharpPlus_Entities_Guild_KuracordGuild_op_Inequality_" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.op_Inequality*"></a>
   <h4 id="KSharpPlus_Entities_Guild_KuracordGuild_op_Inequality_KSharpPlus_Entities_Guild_KuracordGuild_KSharpPlus_Entities_Guild_KuracordGuild_" data-uid="KSharpPlus.Entities.Guild.KuracordGuild.op_Inequality(KSharpPlus.Entities.Guild.KuracordGuild,KSharpPlus.Entities.Guild.KuracordGuild)">Inequality(KuracordGuild, KuracordGuild)</h4>
